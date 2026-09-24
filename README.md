@@ -1,13 +1,15 @@
-<h1 align="center">PDV · Frente de caixa e gestão para o comércio</h1>
+<h1 align="center">PDV</h1>
+
+<h3 align="center">Venda rápido, controle o estoque e saiba quanto o seu negócio lucra.</h3>
 
 <p align="center">
-  Caixa rápido pelo teclado, estoque, compras, etiquetas, delivery e loja online.<br>
-  Instala sozinho em um minuto e funciona <b>sem internet</b>.
+  Caixa, estoque, compras, contas a pagar, etiquetas, delivery e loja online em um só sistema.<br>
+  Instala sozinho em um minuto e continua vendendo mesmo <b>sem internet</b>.
 </p>
 
 <p align="center">
-  <a href="https://github.com/G4Nobrega11/pdv-downloads/releases/latest/download/PDV-Instalador.exe"><b>Baixar para Windows</b></a>
-  &nbsp;·&nbsp; Windows 10 e 11 &nbsp;·&nbsp; teste grátis de 7 dias
+  <a href="https://github.com/G4Nobrega11/pdv-downloads/releases/latest/download/PDV-Instalador.exe"><b>Baixar e testar grátis por 7 dias</b></a>
+  &nbsp;·&nbsp; Windows 10 e 11
 </p>
 
 ![Caixa](docs/caixa.png)
@@ -16,14 +18,14 @@
 
 ## Para quem é
 
-Para a loja que quer vender rápido, saber quanto ganha e parar de perder dinheiro com estoque errado, sem pagar por um sistema complicado.
+Para quem quer vender rápido, saber quanto ganha e parar de perder dinheiro com estoque errado, sem pagar caro por um sistema complicado.
 
-| Tipo de loja | O que o sistema resolve |
+| Tipo de negócio | O que o sistema resolve |
 |---|---|
 | **Roupas e calçados** | Grade de tamanho e cor, etiqueta com código de barras para cada peça, troca e política de troca no cupom |
 | **Mercadinho, insumos e granel** | Venda por peso (kg, g, litro, metro), preço de atacado automático, leitor de código de barras |
 | **Lanchonete e restaurante** | Adicionais (bacon, borda), observação por item, via da cozinha, delivery e retirada |
-| **Loja em geral** | Tudo o que está acima, ligado ou desligado conforme a sua necessidade |
+| **Comércio em geral** | Tudo o que está acima, ligado ou desligado conforme a sua necessidade |
 
 ## Por que este sistema
 
