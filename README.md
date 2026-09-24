@@ -32,7 +32,7 @@ Para quem quer vender rápido, saber quanto ganha e parar de perder dinheiro com
 - **Não para quando a internet cai.** Tudo fica salvo no computador da loja. A internet só é usada para ativar e para os módulos online.
 - **Rápido de verdade.** Venda inteira pelo teclado e pelo leitor: bipou, apertou F9, recebeu. Aperte F1 em qualquer tela para ver os atalhos.
 - **Fácil para quem nunca usou sistema.** O próprio sistema encontra a impressora, explica o que fazer e testa antes de salvar.
-- **Seus dados protegidos.** Backup automático todo dia e ao fechar o caixa, com cópia extra no pendrive ou na pasta do Google Drive ou OneDrive.
+- **Seus dados protegidos.** Ficam no computador da loja, com backup automático, usuário e permissão para cada pessoa e histórico de tudo o que foi feito. Veja [Segurança dos seus dados](#segurança-dos-seus-dados).
 - **Atualiza sozinho.** As melhorias chegam pela internet e são instaladas quando você fecha o sistema. Antes de instalar, ele faz um backup.
 - **Traga o que você já tem.** Importe seus produtos, fornecedores e até o histórico de vendas de uma planilha do Excel ou de outro sistema.
 
@@ -101,6 +101,25 @@ Produtos (com grade de tamanho e cor e venda por peso), fornecedores e históric
   &nbsp;&nbsp;
   <img src="docs/dono-celular.png" width="300" alt="Painel do dono no celular">
 </p>
+
+---
+
+## Segurança dos seus dados
+
+São os números do seu negócio: vendas, clientes, custos e contas. O sistema foi feito para eles ficarem com você e só quem você autorizar mexer neles.
+
+- **Ficam no computador da loja.** Vendas, clientes, produtos e contas ficam no seu computador, não num servidor de terceiros. A internet só é usada para ativar, receber atualizações e para os módulos online.
+- **Backup automático.** Todo dia, ao fechar o caixa, antes de importar uma planilha e antes de cada atualização. Com cópia extra no pendrive ou na pasta do Google Drive ou do OneDrive, se você quiser.
+- **Cada pessoa com o seu usuário.** Perfis prontos (administrador, gerente, caixa, estoquista e financeiro) ou montados do seu jeito. Quem não tem a permissão não vê nem faz, e a trava vale no sistema inteiro, não só na tela.
+- **Senhas protegidas.** Senha, PIN e crachá nunca ficam guardados como foram digitados: nem abrindo o banco de dados dá para ler. Cinco tentativas erradas bloqueiam por um minuto.
+- **Tudo registrado.** Vendas canceladas, descontos, sangrias, mudanças de preço e de estoque, usuários e permissões: o histórico mostra quem fez, quando e quem autorizou. Dá para exportar em planilha.
+- **Troca de operador sem fechar o caixa.** A tela bloqueia com Ctrl B ou sozinha, depois do tempo que você escolher, e volta com o PIN ou o crachá.
+- **Celular do dono sem expor a senha.** Pelo Wi-Fi da loja, a senha não passa pela rede. De qualquer lugar, o acesso é por link privado e PIN, com conexão cifrada, e bloqueia depois de 5 PINs errados.
+- **Atualização só da fonte oficial.** O sistema só instala versões publicadas pelo fornecedor do sistema, e faz um backup antes.
+- **Licença com assinatura digital.** Não dá para falsificar nem copiar para outro computador.
+- **Loja online protegida.** O preço do pedido é sempre o do seu cadastro, e o sistema barra quem tenta mandar pedidos em série.
+
+**Dica:** proteja também o computador. Use senha no Windows e, se o seu Windows tiver, ligue a criptografia do dispositivo (BitLocker).
 
 ---
 
@@ -208,7 +227,7 @@ A gaveta que abre pela impressora térmica depende da configuração do driver d
 Não. Exporte uma planilha do sistema antigo (Excel ou CSV) e importe em Produtos > Importar planilha. Dá para trazer também os fornecedores e o histórico de vendas.
 
 **Quantos usuários posso criar?**
-Quantos quiser: administrador, gerente e operador de caixa, cada um com a sua senha. O operador só vê o caixa, os pedidos e as vendas; descontos acima do limite pedem a senha do gerente.
+Depende do plano: o mais simples inclui 2, e dá para contratar usuários extras de caixa ou de gerência. Cada pessoa tem o seu login, senha, PIN e crachá, com as permissões do perfil dela; descontos acima do limite pedem a autorização de quem pode liberar.
 
 ---
 
