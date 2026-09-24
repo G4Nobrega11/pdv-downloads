@@ -1,4 +1,4 @@
-<h1 align="center">PDV · Frente de caixa e gestão para pequenas lojas</h1>
+<h1 align="center">PDV · Frente de caixa e gestão para o comércio</h1>
 
 <p align="center">
   Caixa rápido pelo teclado, estoque, compras, etiquetas, delivery e loja online.<br>
@@ -128,7 +128,7 @@ O sistema funciona com praticamente qualquer impressora instalada no Windows. N�
 | Para quê | Tipo | Papel | Exemplos |
 |---|---|---|---|
 | Cupom do caixa (mais comum) | Térmica de cupom | Bobina 80 mm | Elgin i9 e i7, Epson TM-T20, Bematech MP-4200, Daruma DR800, Tanca TP-650, Knup, Gprinter, Xprinter |
-| Cupom em balcão pequeno | Térmica de cupom | Bobina 58 mm | Mini impressoras térmicas USB ou Bluetooth de 58 mm |
+| Pouco espaço no balcão | Térmica de cupom | Bobina 58 mm | Mini impressoras térmicas USB ou Bluetooth de 58 mm |
 | Cupom sem impressora térmica | Comum (jato de tinta ou laser) | Folha A4 | HP, Epson, Brother, Canon, Samsung |
 | Etiquetas em rolo | Térmica de etiquetas | Rolo de etiquetas | Argox OS-214 e OS-2140, Elgin L42 Pro, Zebra GC420t e ZD220 |
 | Etiquetas em folha | Comum (jato de tinta ou laser) | Folha A4 adesiva com 65, 21 ou 14 etiquetas | Qualquer impressora comum |
