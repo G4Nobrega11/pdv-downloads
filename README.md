@@ -33,7 +33,7 @@ Para quem quer vender rápido, saber quanto ganha e parar de perder dinheiro com
 - **Rápido de verdade.** Venda inteira pelo teclado e pelo leitor: bipou, apertou F9, recebeu. Aperte F1 em qualquer tela para ver os atalhos.
 - **Fácil para quem nunca usou sistema.** O próprio sistema encontra a impressora, explica o que fazer e testa antes de salvar.
 - **Seus dados protegidos.** Ficam no computador da loja, com backup automático, usuário e permissão para cada pessoa e histórico de tudo o que foi feito. Veja [Segurança dos seus dados](#segurança-dos-seus-dados).
-- **Atualiza sozinho.** As melhorias chegam pela internet e são instaladas quando você fecha o sistema. Antes de instalar, ele faz um backup.
+- **Atualiza com um clique.** As melhorias chegam pela internet e aparecem como "Atualização pendente": clique, confirme e o sistema reinicia já atualizado, com um backup antes. Ao abrir a versão nova, ele mostra o que mudou.
 - **Traga o que você já tem.** Importe seus produtos, fornecedores, clientes e até o histórico de vendas de uma planilha do Excel ou de outro sistema.
 
 ---
@@ -42,7 +42,7 @@ Para quem quer vender rápido, saber quanto ganha e parar de perder dinheiro com
 
 ### Caixa rápido
 
-Leitor de código de barras, busca por nome, quantidade com `3*` antes do código, desconto com senha do gerente, várias formas de pagamento na mesma venda, troco calculado, sangria e suprimento, fechamento com conferência de cada forma de pagamento. Cupom em impressora térmica (80 ou 58 mm) ou em folha A4.
+Leitor de código de barras ou busca por nome, com a lista de produtos aparecendo enquanto você digita. Quantidade com `3*` antes do código, desconto com senha do gerente, várias formas de pagamento na mesma venda, troco calculado, sangria e suprimento, fechamento com conferência de cada forma de pagamento. Precisa cancelar ou reimprimir uma venda do dia? **Ctrl H** mostra as vendas de hoje sem sair do caixa. Cupom em impressora térmica (80 ou 58 mm) ou em folha A4.
 
 ### Painel de vendas
 
@@ -67,7 +67,7 @@ Quanto você tem, quanto vale (pelo custo e pelo preço de venda), o que precisa
 Do "o que comprar" até pagar o fornecedor:
 
 - **O que comprar**: o sistema calcula a reposição pela média de vendas de cada tamanho e cor, desconta o que já foi pedido e ainda não chegou e garante o estoque mínimo. Separado por fornecedor, com o pedido mínimo de cada um.
-- **Pedido de compra**: monte em segundos a partir da sugestão, mande pelo WhatsApp do fornecedor ou em PDF.
+- **Pedido de compra**: monte em segundos a partir da sugestão e mande pelo WhatsApp do fornecedor (a conversa já abre com o pedido), em PDF ou copiando o texto. Cada pedido mostra se já foi mandado, se chegou uma parte ou se chegou tudo.
 - **Recebimento com conferência**: chegou uma parte? Informe o que chegou; o resto fica em aberto. O estoque e o custo são atualizados e já dá para imprimir as etiquetas das peças que chegaram.
 - **Preço pelo markup**: defina o markup da loja, de cada categoria ou de um produto, e o sistema sugere o preço de venda pelo custo. Mostra os produtos com o preço abaixo do sugerido e corrige todos de uma vez.
 - **Fornecedores**: contato, WhatsApp, prazo de entrega, condição de pagamento, histórico de compras e último custo de cada produto.
@@ -81,7 +81,7 @@ Do "o que comprar" até pagar o fornecedor:
 
 ### Clientes
 
-Cadastro com CPF ou CNPJ, WhatsApp, aniversário e endereço. No caixa, **Ctrl I** escolhe o cliente: o nome e o CPF saem no cupom e a compra fica no cadastro dele. Veja o que cada cliente compra, quanto gasta, os aniversariantes do mês e quem não volta há mais de 90 dias. Cadastros repetidos se juntam num só, e dá para trazer os clientes de uma planilha.
+Cadastro com CPF ou CNPJ, WhatsApp, aniversário e endereço. No caixa, **Ctrl I** escolhe o cliente: o nome e o CPF saem no cupom e a compra fica no cadastro dele. Você escolhe como o caixa trata o cliente: não usar (balcão rápido), opcional ou obrigatório em toda venda. Veja o que cada cliente compra, quanto gasta, os aniversariantes do mês e quem não volta há mais de 90 dias. Cadastros repetidos se juntam num só, e dá para trazer os clientes de uma planilha.
 
 ### Financeiro
 
@@ -123,6 +123,7 @@ São os números do seu negócio: vendas, clientes, custos e contas. O sistema f
 - **Backup automático.** Todo dia, ao fechar o caixa, antes de importar uma planilha e antes de cada atualização. Com cópia extra no pendrive ou na pasta do Google Drive ou do OneDrive, se você quiser.
 - **Cada pessoa com o seu usuário.** Perfis prontos (administrador, gerente, caixa, estoquista e financeiro) ou montados do seu jeito. Quem não tem a permissão não vê nem faz, e a trava vale no sistema inteiro, não só na tela.
 - **Senhas protegidas.** Senha, PIN e crachá nunca ficam guardados como foram digitados: nem abrindo o banco de dados dá para ler. Cinco tentativas erradas bloqueiam por um minuto.
+- **Esqueceu a senha do administrador?** Na tela de entrada, crie uma senha nova com a chave de ativação que veio na compra. Sem a chave, ninguém troca, e a troca fica no histórico.
 - **Tudo registrado.** Vendas canceladas, descontos, sangrias, mudanças de preço e de estoque, usuários e permissões: o histórico mostra quem fez, quando e quem autorizou. Dá para exportar em planilha.
 - **Troca de operador sem fechar o caixa.** A tela bloqueia com Ctrl B ou sozinha, depois do tempo que você escolher, e volta com o PIN ou o crachá.
 - **Celular do dono sem expor a senha.** Pelo Wi-Fi da loja, a senha não passa pela rede. De qualquer lugar, o acesso é por link privado e PIN, com conexão cifrada, e bloqueia depois de 5 PINs errados.
@@ -246,6 +247,12 @@ A gaveta que abre pela impressora térmica depende da configuração do driver d
 
 **Tenho os produtos em outro sistema. Preciso cadastrar tudo de novo?**
 Não. Exporte uma planilha do sistema antigo (Excel ou CSV) e importe em Produtos > Importar planilha. Dá para trazer também os fornecedores, os clientes e o histórico de vendas.
+
+**Esqueci a senha. E agora?**
+Quem não é administrador pede uma senha provisória ao administrador, em Equipe. O administrador clica em "Sou o administrador e esqueci a senha", na tela de entrada, e cria uma senha nova com a chave de ativação da compra. Perdeu a chave? O vendedor manda de novo.
+
+**Como chegam as atualizações?**
+Pela internet, sem reinstalar. Quando tiver versão nova, aparece "Atualização pendente" embaixo do menu (e na tela de entrada). Clique, confirme e o sistema reinicia já atualizado, com um backup antes. Se preferir, ela é instalada quando você fechar o sistema.
 
 **Quantos usuários posso criar?**
 Depende do plano: 2 no Básico, 3 no Médio e 5 no Completo, e dá para contratar usuários extras de caixa ou de gerência. Cada pessoa tem o seu login, senha, PIN e crachá, com as permissões do perfil dela; descontos acima do limite pedem a autorização de quem pode liberar.
