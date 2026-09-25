@@ -85,7 +85,13 @@ Cadastro com CPF ou CNPJ, WhatsApp, aniversário e endereço. No caixa, **Ctrl I
 
 ### Financeiro
 
-Contas a pagar com vencimentos e alertas: as parcelas das compras entram sozinhas e aluguel, luz e outras contas também. Chegam nas próximas atualizações, sem reinstalar: venda fiado e no crediário com limite por cliente, contas a receber, previsão de caixa dos próximos dias e o resultado do mês (quanto o seu negócio lucrou).
+- **Fiado e crediário no caixa.** O cliente leva e paga depois, de uma vez ou em até 12 parcelas, com carnê impresso. Cada cliente tem um limite de crédito: acima dele, só com a autorização de quem pode liberar.
+- **Receber no caixa.** Ctrl I, escolha o cliente e receba: o valor entra no fechamento do caixa, e a multa e os juros de atraso já vêm calculados.
+- **Contas a pagar** com vencimentos e alertas: as parcelas das compras entram sozinhas, e o aluguel, a luz e as outras contas de todo mês também.
+- **Previsão de caixa**: quanto você vai ter em cada dia dos próximos 30, 60 ou 90 dias, com aviso se o saldo for ficar negativo.
+- **Resultado do mês**: quanto o seu negócio lucrou, com as vendas, o custo das mercadorias e as despesas, e os últimos 12 meses para comparar.
+
+![Resultado do mês](docs/financeiro.png)
 
 ### Etiquetas com código de barras
 
@@ -125,6 +131,8 @@ São os números do seu negócio: vendas, clientes, custos e contas. O sistema f
 - **Senhas protegidas.** Senha, PIN e crachá nunca ficam guardados como foram digitados: nem abrindo o banco de dados dá para ler. Cinco tentativas erradas bloqueiam por um minuto.
 - **Esqueceu a senha do administrador?** Na tela de entrada, crie uma senha nova com a chave de ativação que veio na compra. Sem a chave, ninguém troca, e a troca fica no histórico.
 - **Tudo registrado.** Vendas canceladas, descontos, sangrias, mudanças de preço e de estoque, usuários e permissões: o histórico mostra quem fez, quando e quem autorizou. Dá para exportar em planilha.
+- **Autorização na hora, com a senha de quem libera.** Desconto acima do limite, cancelamento, sangria, fiado acima do limite e dispensa de juros só passam com a senha, o PIN ou o crachá de quem pode liberar, digitados na hora. Ninguém usa o nome do gerente sem ele.
+- **Fiado com trava.** Limite de crédito por cliente e, se precisar, o bloqueio da venda a prazo para quem está devendo.
 - **Troca de operador sem fechar o caixa.** A tela bloqueia com Ctrl B ou sozinha, depois do tempo que você escolher, e volta com o PIN ou o crachá.
 - **Celular do dono sem expor a senha.** Pelo Wi-Fi da loja, a senha não passa pela rede. De qualquer lugar, o acesso é por link privado e PIN, com conexão cifrada, e bloqueia depois de 5 PINs errados.
 - **Atualização só da fonte oficial.** O sistema só instala versões publicadas pelo fornecedor do sistema, e faz um backup antes.
