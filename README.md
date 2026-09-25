@@ -107,10 +107,16 @@ Cadastro com CPF ou CNPJ, WhatsApp, aniversário e endereço. No caixa, **Ctrl I
 - **Fiado e crediário no caixa.** O cliente leva e paga depois, de uma vez ou em até 12 parcelas, com carnê impresso. Cada cliente tem um limite de crédito: acima dele, só com a autorização de quem pode liberar.
 - **Receber no caixa.** Ctrl I, escolha o cliente e receba: o valor entra no fechamento do caixa, e a multa e os juros de atraso já vêm calculados.
 - **Contas a pagar** com vencimentos e alertas: as parcelas das compras entram sozinhas, e o aluguel, a luz e as outras contas de todo mês também.
-- **Previsão de caixa**: quanto você vai ter em cada dia dos próximos 30, 60 ou 90 dias, com aviso se o saldo for ficar negativo.
+- **Maquininhas de cartão** de qualquer marca: cadastre as taxas e os prazos de cada uma e veja quanto cai na conta e em que dia. No caixa, com mais de uma maquininha, é só escolher em qual o cartão passou; as taxas saem do resultado do mês.
+- **Saldos do caixa, do cofre e do banco.** Cada venda, recebimento, conta paga, sangria e fechamento de caixa entra sozinho na conta certa: você sabe quanto tem em cada lugar, com o extrato de cada um.
+- **Previsão de caixa**: a partir dos saldos, quanto você vai ter em cada dia dos próximos 30, 60 ou 90 dias, com aviso se o saldo for ficar negativo.
 - **Resultado do mês**: quanto o seu negócio lucrou, com as vendas, o custo das mercadorias e as despesas, e os últimos 12 meses para comparar.
 
 ![Resultado do mês](docs/financeiro.png)
+
+![Saldos do caixa, do cofre e do banco](docs/financeiro-saldos.png)
+
+![Maquininhas de cartão: quanto cai na conta e quando](docs/financeiro-cartoes.png)
 
 ### Etiquetas com código de barras
 
