@@ -3,7 +3,7 @@
 <h3 align="center">Venda rápido, controle o estoque e saiba quanto o seu negócio lucra.</h3>
 
 <p align="center">
-  Caixa, estoque, compras, contas a pagar, etiquetas, delivery e loja online em um só sistema.<br>
+  Caixa, estoque, compras, clientes, financeiro, etiquetas, delivery e loja online em um só sistema.<br>
   Instala sozinho em um minuto e continua vendendo mesmo <b>sem internet</b>.
 </p>
 
@@ -34,7 +34,7 @@ Para quem quer vender rápido, saber quanto ganha e parar de perder dinheiro com
 - **Fácil para quem nunca usou sistema.** O próprio sistema encontra a impressora, explica o que fazer e testa antes de salvar.
 - **Seus dados protegidos.** Ficam no computador da loja, com backup automático, usuário e permissão para cada pessoa e histórico de tudo o que foi feito. Veja [Segurança dos seus dados](#segurança-dos-seus-dados).
 - **Atualiza sozinho.** As melhorias chegam pela internet e são instaladas quando você fecha o sistema. Antes de instalar, ele faz um backup.
-- **Traga o que você já tem.** Importe seus produtos, fornecedores e até o histórico de vendas de uma planilha do Excel ou de outro sistema.
+- **Traga o que você já tem.** Importe seus produtos, fornecedores, clientes e até o histórico de vendas de uma planilha do Excel ou de outro sistema.
 
 ---
 
@@ -45,6 +45,8 @@ Para quem quer vender rápido, saber quanto ganha e parar de perder dinheiro com
 Leitor de código de barras, busca por nome, quantidade com `3*` antes do código, desconto com senha do gerente, várias formas de pagamento na mesma venda, troco calculado, sangria e suprimento, fechamento com conferência de cada forma de pagamento. Cupom em impressora térmica (80 ou 58 mm) ou em folha A4.
 
 ### Painel de vendas
+
+No plano Básico, o painel mostra o essencial: vendido hoje e ontem, ticket médio, os últimos 7 dias, os mais vendidos da semana e o estoque em alerta. Nos planos Médio e Completo, o painel completo:
 
 Faturamento, número de vendas, ticket médio, lucro bruto e itens vendidos, sempre comparados com o período anterior. Vendas por dia e por hora, formas de pagamento, produtos e categorias que mais vendem, vendas por operador e o **mapa de dias e horários de movimento**, para escalar a equipe e programar a reposição.
 
@@ -67,14 +69,23 @@ Do "o que comprar" até pagar o fornecedor:
 - **O que comprar**: o sistema calcula a reposição pela média de vendas de cada tamanho e cor, desconta o que já foi pedido e ainda não chegou e garante o estoque mínimo. Separado por fornecedor, com o pedido mínimo de cada um.
 - **Pedido de compra**: monte em segundos a partir da sugestão, mande pelo WhatsApp do fornecedor ou em PDF.
 - **Recebimento com conferência**: chegou uma parte? Informe o que chegou; o resto fica em aberto. O estoque e o custo são atualizados e já dá para imprimir as etiquetas das peças que chegaram.
-- **Contas a pagar**: as parcelas do fornecedor (30/60/90) entram sozinhas no recebimento. Aluguel, luz e outras contas também. Vencidas e vencendo hoje aparecem nos alertas.
+- **Preço pelo markup**: defina o markup da loja, de cada categoria ou de um produto, e o sistema sugere o preço de venda pelo custo. Mostra os produtos com o preço abaixo do sugerido e corrige todos de uma vez.
 - **Fornecedores**: contato, WhatsApp, prazo de entrega, condição de pagamento, histórico de compras e último custo de cada produto.
+- **Contas a pagar** (com o Financeiro): as parcelas do fornecedor (30/60/90) entram sozinhas no recebimento.
 
 ![O que comprar](docs/compras-comprar.png)
 
 ![Pedido de compra](docs/compras-pedido.png)
 
 ![Contas a pagar](docs/compras-contas.png)
+
+### Clientes
+
+Cadastro com CPF ou CNPJ, WhatsApp, aniversário e endereço. No caixa, **Ctrl I** escolhe o cliente: o nome e o CPF saem no cupom e a compra fica no cadastro dele. Veja o que cada cliente compra, quanto gasta, os aniversariantes do mês e quem não volta há mais de 90 dias. Cadastros repetidos se juntam num só, e dá para trazer os clientes de uma planilha.
+
+### Financeiro
+
+Contas a pagar com vencimentos e alertas: as parcelas das compras entram sozinhas e aluguel, luz e outras contas também. Chegam nas próximas atualizações, sem reinstalar: venda fiado e no crediário com limite por cliente, contas a receber, previsão de caixa dos próximos dias e o resultado do mês (quanto o seu negócio lucrou).
 
 ### Etiquetas com código de barras
 
@@ -84,7 +95,7 @@ Para produtos sem código ou com código próprio da loja: etiqueta com ou sem p
 
 ### Importar planilha
 
-Produtos (com grade de tamanho e cor e venda por peso), fornecedores e histórico de vendas. Excel (.xlsx) ou CSV, inclusive o que outros sistemas exportam. O sistema reconhece as colunas sozinho, mostra **exatamente** o que vai entrar, o que vai ser atualizado e as linhas com problema, e faz um backup antes de importar.
+Produtos (com grade de tamanho e cor e venda por peso), fornecedores, clientes e histórico de vendas. Excel (.xlsx) ou CSV, inclusive o que outros sistemas exportam. O sistema reconhece as colunas sozinho, mostra **exatamente** o que vai entrar, o que vai ser atualizado e as linhas com problema, e faz um backup antes de importar.
 
 ![Importar planilha](docs/importar.png)
 
@@ -123,20 +134,30 @@ São os números do seu negócio: vendas, clientes, custos e contas. O sistema f
 
 ---
 
-## Módulos
+## Planos
 
-O caixa, os produtos, as vendas, o cupom, o backup e a importação de planilhas vêm em todos os planos. Os módulos abaixo são liberados conforme o plano contratado, e podem ser liberados depois sem reinstalar nada.
+Pague uma vez só ou por mês. Todos os planos têm 7 dias grátis para testar e recebem as atualizações sem reinstalar nada. Para mudar de plano, peça ao vendedor: os módulos novos aparecem no sistema sem reinstalar.
 
-| Módulo | O que traz |
-|---|---|
-| Painel de vendas | Faturamento, lucro, mais vendidos, horários de movimento e alertas |
-| Gestão de estoque | Entrada por nota, inventário com leitor, perdas, movimentações e reposição |
-| Compras | Fornecedores, o que comprar, pedidos de compra, recebimento e contas a pagar |
-| Etiquetas | Etiquetas com código de barras, com ou sem preço, em rolo ou folha A4 |
-| Delivery e pedidos | Pedidos para entrega ou retirada, com entregador e acompanhamento |
-| Celular do dono | Vendas do dia, pedidos e estoque no celular, pelo Wi-Fi da loja |
-| Loja online | Página com os produtos para o cliente pedir pelo celular |
-| Acesso de qualquer lugar | O dono acompanha a loja de casa ou da rua, com link e PIN |
+| | Básico | Médio | Completo |
+|---|---|---|---|
+| **Pagamento único** | **R$ 49,90** | **R$ 69,90** | **R$ 99,90** |
+| **Ou por mês** | R$ 19,90 | R$ 29,90 | R$ 49,90 |
+| Computadores | 1 | 2 | 3 |
+| Usuários incluídos | 2 | 3 | 5 |
+| Caixa, produtos, vendas, cupom, backup e importação de planilhas | Sim | Sim | Sim |
+| Painel de vendas | Simples | Completo | Completo |
+| Gestão de estoque | Sim | Sim | Sim |
+| Compras, fornecedores e preço pelo markup | - | Sim | Sim |
+| Clientes | - | Sim | Sim |
+| Etiquetas com código de barras | - | Sim | Sim |
+| Celular do dono pelo Wi-Fi da loja | - | 1 celular | 2 celulares |
+| Financeiro | - | - | Sim |
+| Delivery e pedidos | - | - | Sim |
+| Loja online | - | - | Sim |
+| Acesso de qualquer lugar (link e PIN) | - | - | Sim |
+| Pedidos e estoque do Mercado Livre | - | - | Em breve |
+
+**Usuário extra:** R$ 9,90 por mês para caixa ou vendedor e R$ 14,90 para gerente ou financeiro. No pagamento único, R$ 24,90 e R$ 39,90.
 
 ---
 
@@ -218,16 +239,16 @@ Não. É um sistema de controle da loja (caixa, estoque, compras e financeiro). 
 No computador da loja, com backup automático todo dia. Você pode escolher uma pasta extra (pendrive, Google Drive, OneDrive) para ter uma cópia fora do computador.
 
 **Posso usar em mais de um computador?**
-Depende do plano. Cada computador ativa com o mesmo código, até o limite do plano.
+Depende do plano: 1 no Básico, 2 no Médio e 3 no Completo. Cada computador ativa com o mesmo código, até o limite do plano.
 
 **Funciona com gaveta de dinheiro e balança?**
 A gaveta que abre pela impressora térmica depende da configuração do driver da impressora. Balança integrada ainda não: o produto por peso é vendido digitando o peso.
 
 **Tenho os produtos em outro sistema. Preciso cadastrar tudo de novo?**
-Não. Exporte uma planilha do sistema antigo (Excel ou CSV) e importe em Produtos > Importar planilha. Dá para trazer também os fornecedores e o histórico de vendas.
+Não. Exporte uma planilha do sistema antigo (Excel ou CSV) e importe em Produtos > Importar planilha. Dá para trazer também os fornecedores, os clientes e o histórico de vendas.
 
 **Quantos usuários posso criar?**
-Depende do plano: o mais simples inclui 2, e dá para contratar usuários extras de caixa ou de gerência. Cada pessoa tem o seu login, senha, PIN e crachá, com as permissões do perfil dela; descontos acima do limite pedem a autorização de quem pode liberar.
+Depende do plano: 2 no Básico, 3 no Médio e 5 no Completo, e dá para contratar usuários extras de caixa ou de gerência. Cada pessoa tem o seu login, senha, PIN e crachá, com as permissões do perfil dela; descontos acima do limite pedem a autorização de quem pode liberar.
 
 ---
 
