@@ -32,6 +32,7 @@ Para quem quer vender rápido, saber quanto ganha e parar de perder dinheiro com
 - **Não para quando a internet cai.** Tudo fica salvo no computador da loja. A internet só é usada para ativar e para os módulos online.
 - **Rápido de verdade.** Venda inteira pelo teclado e pelo leitor: bipou, apertou F9, recebeu. Aperte F1 em qualquer tela para ver os atalhos.
 - **Fácil para quem nunca usou sistema.** O próprio sistema encontra a impressora, explica o que fazer e testa antes de salvar.
+- **Telas limpas, claras ou escuras.** Feitas para o dia inteiro no caixa, com os números alinhados e o que importa em destaque. Escolha o tema claro, o escuro ou o mesmo do Windows.
 - **Seus dados protegidos.** Ficam no computador da loja, com backup automático, usuário e permissão para cada pessoa e histórico de tudo o que foi feito. Veja [Segurança dos seus dados](#segurança-dos-seus-dados).
 - **Atualiza com um clique.** As melhorias chegam pela internet e aparecem como "Atualização pendente": clique, confirme e o sistema reinicia já atualizado, com um backup antes. Ao abrir a versão nova, ele mostra o que mudou.
 - **Traga o que você já tem.** Importe seus produtos, fornecedores, clientes e até o histórico de vendas de uma planilha do Excel ou de outro sistema.
@@ -54,6 +55,10 @@ Em todos os planos.
 - **Condicional** (Ctrl L): o cliente leva as peças para provar, com comprovante para assinar e prazo para devolver ou pagar. O que volta entra no estoque; o que fica é pago no caixa. Condicional atrasado aparece no painel.
 - O painel de vendas e o resultado do mês já descontam as trocas.
 
+![Troca no caixa](docs/trocas.png)
+
+![Condicionais](docs/condicionais.png)
+
 ### Painel de vendas
 
 No plano Básico, o painel mostra o essencial: vendido hoje e ontem, ticket médio, os últimos 7 dias, os mais vendidos da semana e o estoque em alerta. Nos planos Médio e Completo, o painel completo:
@@ -63,6 +68,10 @@ Faturamento, número de vendas, ticket médio, lucro bruto e itens vendidos, sem
 ![Painel de vendas](docs/painel.png)
 
 ![Mais vendidos e horários de movimento](docs/painel-2.png)
+
+O mesmo painel no tema escuro (Configurações > Loja > Aparência):
+
+![Painel no tema escuro](docs/tema-escuro.png)
 
 No topo do painel ficam os **alertas**: produtos zerados e abaixo do mínimo, contas vencidas ou vencendo hoje, pedidos de compra atrasados, pedidos de delivery em andamento e dinheiro parado em produtos que não vendem há 60 dias. O menu lateral mostra os números também (quantos produtos repor, quantas contas vencem).
 
