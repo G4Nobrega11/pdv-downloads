@@ -30,7 +30,7 @@ Para quem quer vender rápido, saber quanto ganha e parar de perder dinheiro com
 ## Por que este sistema
 
 - **Não para quando a internet cai.** Tudo fica salvo no computador da loja. A internet só é usada para ativar e para os módulos online.
-- **Rápido de verdade.** Venda inteira pelo teclado e pelo leitor: bipou, apertou F9, recebeu. Aperte F1 em qualquer tela para ver os atalhos.
+- **Rápido de verdade.** Venda inteira pelo teclado e pelo leitor: bipou, apertou F9, a tecla da forma de pagamento (F2 dinheiro, F3 PIX, F5 crédito) e Enter. A venda termina na hora, sem esperar a impressora, e todas as teclas ficam à vista no caixa. Aperte F1 em qualquer tela para ver a lista.
 - **Fácil para quem nunca usou sistema.** O próprio sistema encontra a impressora, explica o que fazer e testa antes de salvar.
 - **Telas limpas, claras ou escuras.** Feitas para o dia inteiro no caixa, com os números alinhados e o que importa em destaque. Escolha o tema claro, o escuro ou o mesmo do Windows.
 - **Seus dados protegidos.** Ficam no computador da loja, com backup automático, usuário e permissão para cada pessoa e histórico de tudo o que foi feito. Veja [Segurança dos seus dados](#segurança-dos-seus-dados).
@@ -43,16 +43,16 @@ Para quem quer vender rápido, saber quanto ganha e parar de perder dinheiro com
 
 ### Caixa rápido
 
-Leitor de código de barras ou busca por nome, com a lista de produtos aparecendo enquanto você digita. Quantidade com `3*` antes do código, desconto com senha do gerente, várias formas de pagamento na mesma venda, troco calculado, sangria e suprimento, fechamento com conferência de cada forma de pagamento. Precisa cancelar ou reimprimir uma venda do dia? **Ctrl H** mostra as vendas de hoje sem sair do caixa. Cupom em impressora térmica (80 ou 58 mm) ou em folha A4.
+Leitor de código de barras ou busca por nome, com a lista de produtos aparecendo enquanto você digita. Quantidade com `3*` antes do código, desconto com senha do gerente, várias formas de pagamento na mesma venda, troco calculado, sangria e suprimento, fechamento com conferência de cada forma de pagamento. Precisa cancelar ou reimprimir uma venda do dia? **Ctrl+H** mostra as vendas de hoje sem sair do caixa. Cupom em impressora térmica (80 ou 58 mm) ou em folha A4.
 
 ### Trocas, devoluções e condicional
 
 Em todos os planos.
 
 - **Troca pela venda.** Bipe o cupom ou digite o número da venda, marque as peças que voltaram e o motivo. O valor é o que o cliente pagou, já com a parte dele no desconto da venda.
-- **Vale-troca** com código de barras e validade: vale no caixa, inteiro ou em parte, e o saldo continua no mesmo vale. Ou **troca na hora** (Ctrl T): a peça volta e paga a nova, e a diferença é paga ali mesmo.
+- **Vale-troca** com código de barras e validade: vale no caixa, inteiro ou em parte, e o saldo continua no mesmo vale. Ou **troca na hora** (Ctrl+T): a peça volta e paga a nova, e a diferença é paga ali mesmo.
 - **Devolver o dinheiro**, o PIX ou estornar o cartão, se a sua loja fizer: só com a permissão ou a senha de quem libera, e a saída entra no fechamento do caixa. Venda no fiado? A troca abate as parcelas em aberto. Peça com defeito sai do estoque como perda.
-- **Condicional** (Ctrl L): o cliente leva as peças para provar, com comprovante para assinar e prazo para devolver ou pagar. O que volta entra no estoque; o que fica é pago no caixa. Condicional atrasado aparece no painel.
+- **Condicional** (Ctrl+L): o cliente leva as peças para provar, com comprovante para assinar e prazo para devolver ou pagar. O que volta entra no estoque; o que fica é pago no caixa. Condicional atrasado aparece no painel.
 - O painel de vendas e o resultado do mês já descontam as trocas.
 
 ![Troca no caixa](docs/trocas.png)
@@ -100,12 +100,12 @@ Do "o que comprar" até pagar o fornecedor:
 
 ### Clientes
 
-Cadastro com CPF ou CNPJ, WhatsApp, aniversário e endereço. No caixa, **Ctrl I** escolhe o cliente: o nome e o CPF saem no cupom e a compra fica no cadastro dele. Você escolhe como o caixa trata o cliente: não usar (balcão rápido), opcional ou obrigatório em toda venda. Veja o que cada cliente compra, quanto gasta, os aniversariantes do mês e quem não volta há mais de 90 dias. Cadastros repetidos se juntam num só, e dá para trazer os clientes de uma planilha.
+Cadastro com CPF ou CNPJ, WhatsApp, aniversário e endereço. No caixa, **Ctrl+I** escolhe o cliente: o nome e o CPF saem no cupom e a compra fica no cadastro dele. Você escolhe como o caixa trata o cliente: não usar (balcão rápido), opcional ou obrigatório em toda venda. Veja o que cada cliente compra, quanto gasta, os aniversariantes do mês e quem não volta há mais de 90 dias. Cadastros repetidos se juntam num só, e dá para trazer os clientes de uma planilha.
 
 ### Financeiro
 
 - **Fiado e crediário no caixa.** O cliente leva e paga depois, de uma vez ou em até 12 parcelas, com carnê impresso. Cada cliente tem um limite de crédito: acima dele, só com a autorização de quem pode liberar.
-- **Receber no caixa.** Ctrl I, escolha o cliente e receba: o valor entra no fechamento do caixa, e a multa e os juros de atraso já vêm calculados.
+- **Receber no caixa.** Ctrl+I, escolha o cliente e receba: o valor entra no fechamento do caixa, e a multa e os juros de atraso já vêm calculados.
 - **Contas a pagar** com vencimentos e alertas: as parcelas das compras entram sozinhas, e o aluguel, a luz e as outras contas de todo mês também.
 - **Maquininhas de cartão** de qualquer marca: cadastre as taxas e os prazos de cada uma e veja quanto cai na conta e em que dia. No caixa, com mais de uma maquininha, é só escolher em qual o cartão passou; as taxas saem do resultado do mês.
 - **Saldos do caixa, do cofre e do banco.** Cada venda, recebimento, conta paga, sangria e fechamento de caixa entra sozinho na conta certa: você sabe quanto tem em cada lugar, com o extrato de cada um.
@@ -159,7 +159,7 @@ São os números do seu negócio: vendas, clientes, custos e contas. O sistema f
 - **Autorização na hora, com a senha de quem libera.** Desconto acima do limite, cancelamento, sangria, fiado acima do limite, dispensa de juros, devolução em dinheiro e troca fora da regra só passam com a senha, o PIN ou o crachá de quem pode liberar, digitados na hora. Ninguém usa o nome do gerente sem ele.
 - **Vale-troca que não dá para inventar.** O código tem números sorteados e o saldo fica no sistema, não no papel. A segunda via cancela o papel antigo: quem achar o vale perdido não usa o saldo.
 - **Fiado com trava.** Limite de crédito por cliente e, se precisar, o bloqueio da venda a prazo para quem está devendo.
-- **Troca de operador sem fechar o caixa.** A tela bloqueia com Ctrl B ou sozinha, depois do tempo que você escolher, e volta com o PIN ou o crachá.
+- **Troca de operador sem fechar o caixa.** A tela bloqueia com Ctrl+B ou sozinha, depois do tempo que você escolher, e volta com o PIN ou o crachá.
 - **Celular do dono sem expor a senha.** Pelo Wi-Fi da loja, a senha não passa pela rede. De qualquer lugar, o acesso é por link privado e PIN, com conexão cifrada, e bloqueia depois de 5 PINs errados.
 - **Atualização só da fonte oficial.** O sistema só instala versões publicadas pelo fornecedor do sistema, e faz um backup antes.
 - **Licença com assinatura digital.** Não dá para falsificar nem copiar para outro computador.
