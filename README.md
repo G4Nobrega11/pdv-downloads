@@ -3,7 +3,7 @@
 <h3 align="center">Venda rápido, controle o estoque e saiba quanto o seu negócio lucra.</h3>
 
 <p align="center">
-  Caixa, trocas e condicional, estoque, compras, clientes, financeiro, etiquetas, delivery e loja online em um só sistema.<br>
+  Caixa com Pix e maquininha integrados, trocas e condicional, estoque, compras, clientes, financeiro, etiquetas, delivery e loja online em um só sistema.<br>
   Instala sozinho em um minuto e continua vendendo mesmo <b>sem internet</b>.
 </p>
 
@@ -23,7 +23,7 @@ Para quem quer vender rápido, saber quanto ganha e parar de perder dinheiro com
 | Tipo de negócio | O que o sistema resolve |
 |---|---|
 | **Roupas e calçados** | Grade de tamanho e cor, etiqueta com código de barras para cada peça, troca com vale-troca e condicional (o cliente leva para provar) |
-| **Mercadinho, insumos e granel** | Venda por peso (kg, g, litro, metro), preço de atacado automático, leitor de código de barras |
+| **Mercadinho, padaria, açougue e granel** | Venda por peso (kg, g, litro, metro), etiqueta da balança lida no caixa, balança ligada ao computador, preço de atacado automático, leitor de código de barras |
 | **Lanchonete e restaurante** | Adicionais (bacon, borda), observação por item, via da cozinha, delivery e retirada |
 | **Comércio em geral** | Tudo o que está acima, ligado ou desligado conforme a sua necessidade |
 
@@ -31,6 +31,7 @@ Para quem quer vender rápido, saber quanto ganha e parar de perder dinheiro com
 
 - **Não para quando a internet cai.** Tudo fica salvo no computador da loja. A internet só é usada para ativar e para os módulos online.
 - **Rápido de verdade.** Venda inteira pelo teclado e pelo leitor: bipou, apertou F9, a tecla da forma de pagamento (F2 dinheiro, F3 PIX, F5 crédito) e Enter. A venda termina na hora, sem esperar a impressora, e todas as teclas ficam à vista no caixa. Aperte F1 em qualquer tela para ver a lista.
+- **Pix que não dá para fingir.** A venda só fecha quando o Pix cai na conta. O cliente lê o QR na maquininha, num monitor virado para ele ou no papel: ninguém vira a tela do caixa.
 - **Fácil para quem nunca usou sistema.** O próprio sistema encontra a impressora, explica o que fazer e testa antes de salvar.
 - **Telas limpas, claras ou escuras.** Feitas para o dia inteiro no caixa, com os números alinhados e o que importa em destaque. Escolha o tema claro, o escuro ou o mesmo do Windows.
 - **Seus dados protegidos.** Ficam no computador da loja, com backup automático, usuário e permissão para cada pessoa e histórico de tudo o que foi feito. Veja [Segurança dos seus dados](#segurança-dos-seus-dados).
@@ -44,6 +45,25 @@ Para quem quer vender rápido, saber quanto ganha e parar de perder dinheiro com
 ### Caixa rápido
 
 Leitor de código de barras ou busca por nome, com a lista de produtos aparecendo enquanto você digita. Quantidade com `3*` antes do código, desconto com senha do gerente, várias formas de pagamento na mesma venda, troco calculado, sangria e suprimento, fechamento com conferência de cada forma de pagamento. Precisa cancelar ou reimprimir uma venda do dia? **Ctrl+H** mostra as vendas de hoje sem sair do caixa. Cupom em impressora térmica (80 ou 58 mm) ou em folha A4.
+
+### Pix e maquininha integrados
+
+Em todos os planos.
+
+- **Pix sem comprovante falso.** O caixa gera o Pix do valor exato e a venda fecha sozinha quando o dinheiro cai, pelo Mercado Pago ou direto na conta do banco (Efí, Inter, Banco do Brasil, Sicoob, Itaú, Santander, Bradesco, Caixa e outros).
+- **Ninguém vira a tela.** O QR aparece na maquininha (Cielo Smart e TEF), num segundo monitor virado para o cliente ou impresso na bobina, e o cliente lê com o celular.
+- **O valor vai direto para a maquininha.** Mercado Pago Point, Cielo Smart e SumUp Solo recebem o valor do caixa; Stone, PagBank, Getnet, Rede e outras integram pelo TEF. O operador não digita nada na maquininha, a venda fecha com a aprovação e o cupom sai com a bandeira, o final do cartão e o NSU.
+- **Configuração pela marca.** Escolha a marca da sua maquininha e o sistema mostra o caminho certo. O Mercado Pago conecta com um clique, sem copiar senha.
+- **Sem internet, a venda continua:** lance o cartão ou o Pix à mão, com a autorização de um gerente. Cancelou a venda? O dinheiro volta ao cliente pelo próprio provedor.
+
+A conta do Mercado Pago, a API Pix do banco e o TEF são contratados pela loja, com as tarifas de cada um.
+
+### Balança
+
+Em todos os planos.
+
+- **Etiqueta da balança no caixa.** A etiqueta que a balança imprime (Toledo, Filizola, Urano, Elgin e outras) entra bipada, com o produto e o valor certos, pelo preço ou pelo peso. É só pôr no cadastro o código do produto na balança.
+- **Balança ligada ao computador.** Ao lançar um produto vendido por peso, o caixa lê o peso sozinho. Peso mexendo, zerado ou sem resposta: o sistema avisa e deixa digitar. Ctrl+K pesa de novo.
 
 ### Trocas, devoluções e condicional
 
@@ -163,6 +183,7 @@ São os números do seu negócio: vendas, clientes, custos e contas. O sistema f
 - **Celular do dono sem expor a senha.** Pelo Wi-Fi da loja, a senha não passa pela rede. De qualquer lugar, o acesso é por link privado e PIN, com conexão cifrada, e bloqueia depois de 5 PINs errados.
 - **Atualização só da fonte oficial.** O sistema só instala versões publicadas pelo fornecedor do sistema, e faz um backup antes.
 - **Licença com assinatura digital.** Não dá para falsificar nem copiar para outro computador.
+- **Pagamento integrado com trava.** As senhas e os certificados da maquininha e do banco ficam cifrados no computador; cada Pix ou cartão aprovado vale para uma venda só; e cartão ou Pix lançado à mão, com a integração ligada, só passa com a autorização de quem pode liberar.
 - **Loja online protegida.** O preço do pedido é sempre o do seu cadastro, e o sistema barra quem tenta mandar pedidos em série.
 
 **Dica:** proteja também o computador. Use senha no Windows e, se o seu Windows tiver, ligue a criptografia do dispositivo (BitLocker).
@@ -181,6 +202,8 @@ Pague uma vez só ou por mês. Todos os planos têm 7 dias grátis para testar e
 | Usuários incluídos | 2 | 3 | 5 |
 | Caixa, produtos, vendas, cupom, backup e importação de planilhas | Sim | Sim | Sim |
 | Trocas, devoluções, vale-troca e condicional | Sim | Sim | Sim |
+| Pix e maquininha integrados | Sim | Sim | Sim |
+| Balança (etiqueta e ligada ao computador) | Sim | Sim | Sim |
 | Painel de vendas | Simples | Completo | Completo |
 | Gestão de estoque | Sim | Sim | Sim |
 | Compras, fornecedores e preço pelo markup | - | Sim | Sim |
