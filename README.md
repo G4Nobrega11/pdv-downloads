@@ -3,7 +3,7 @@
 <h3 align="center">Venda rápido, controle o estoque e saiba quanto o seu negócio lucra.</h3>
 
 <p align="center">
-  Caixa com Pix e maquininha integrados, trocas e condicional, estoque, compras, clientes, financeiro, etiquetas, delivery e loja online em um só sistema.<br>
+  Caixa com Pix e maquininha integrados, trocas e condicional, estoque, compras, clientes, financeiro, etiquetas, delivery, loja online e Mercado Livre em um só sistema.<br>
   Instala sozinho em um minuto e continua vendendo mesmo <b>sem internet</b>.
 </p>
 
@@ -164,6 +164,13 @@ Produtos (com grade de tamanho e cor e venda por peso), fornecedores, clientes e
   <img src="docs/dono-celular.png" width="300" alt="Painel do dono no celular">
 </p>
 
+### Mercado Livre
+
+- **As vendas caem no sistema.** Cada venda paga vira um pedido em Pedidos, para separar e embalar, e baixa o estoque da loja. Venda cancelada no Mercado Livre cancela o pedido e devolve o estoque.
+- **Um estoque só para o balcão e os anúncios.** Vendeu no balcão, o anúncio atualiza em segundos. Antes de ligar, o sistema mostra o que muda em cada anúncio, e a margem de segurança guarda unidades para não vender a mesma peça duas vezes.
+- **Anúncios ligados aos produtos sem digitar tudo de novo.** Quando o SKU do anúncio é o código de barras ou o código do produto, o sistema liga sozinho. Para o resto, ele sugere o produto pelo nome, pela cor e pelo tamanho, e você confirma.
+- **Tudo na página Marketplaces:** a conta, os anúncios, o estoque e as vendas. Vendas do Full ficam de fora: o Mercado Livre separa e envia do depósito dele.
+
 ---
 
 ## Segurança dos seus dados
@@ -185,6 +192,7 @@ São os números do seu negócio: vendas, clientes, custos e contas. O sistema f
 - **Licença com assinatura digital.** Não dá para falsificar nem copiar para outro computador.
 - **Pagamento integrado com trava.** As senhas e os certificados da maquininha e do banco ficam cifrados no computador; cada Pix ou cartão aprovado vale para uma venda só; e cartão ou Pix lançado à mão, com a integração ligada, só passa com a autorização de quem pode liberar.
 - **Loja online protegida.** O preço do pedido é sempre o do seu cadastro, e o sistema barra quem tenta mandar pedidos em série.
+- **Mercado Livre sem senha no sistema.** Você autoriza a conta no site do Mercado Livre. O acesso fica cifrado, preso à sua chave de ativação, e você desconecta quando quiser.
 
 **Dica:** proteja também o computador. Use senha no Windows e, se o seu Windows tiver, ligue a criptografia do dispositivo (BitLocker).
 
@@ -214,7 +222,7 @@ Pague uma vez só ou por mês. Todos os planos têm 7 dias grátis para testar e
 | Delivery e pedidos | - | - | Sim |
 | Loja online | - | - | Sim |
 | Acesso de qualquer lugar (link e PIN) | - | - | Sim |
-| Pedidos e estoque do Mercado Livre | - | - | Em breve |
+| Pedidos e estoque do Mercado Livre | - | - | Sim |
 
 **Usuário extra:** R$ 9,90 por mês para caixa ou vendedor e R$ 14,90 para gerente ou financeiro. No pagamento único, R$ 24,90 e R$ 39,90.
 
@@ -289,7 +297,7 @@ Não precisa instalar nada: o leitor USB funciona como um teclado. Conecte, abra
 ## Perguntas frequentes
 
 **Precisa de internet?**
-Não para vender. A internet é usada para ativar, para receber atualizações e para os módulos online (loja online e acesso de qualquer lugar).
+Não para vender. A internet é usada para ativar, para receber atualizações e para os módulos online (loja online, Mercado Livre e acesso de qualquer lugar).
 
 **Emite nota fiscal (NFC-e, SAT)?**
 Não. É um sistema de controle da loja (caixa, estoque, compras e financeiro). Quando a nota fiscal for obrigatória para o seu negócio, use junto com o emissor indicado pela sua contabilidade.
