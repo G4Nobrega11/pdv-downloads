@@ -97,9 +97,13 @@ No topo do painel ficam os **alertas**: produtos zerados e abaixo do mínimo, co
 
 ### Estoque
 
-Quanto você tem, quanto vale (pelo custo e pelo preço de venda), o que precisa repor e tudo o que entrou e saiu. Entrada de mercadoria bipando as peças da nota, inventário com o leitor (dá para continuar vendendo durante a contagem), perdas e avarias com motivo, movimentações com filtro e planilha para o contador.
+Quanto você tem, quanto vale (pelo custo e pelo preço de venda), o que precisa repor e tudo o que entrou e saiu. Entrada de mercadoria bipando as peças da nota, inventário com o leitor (dá para continuar vendendo durante a contagem), perdas e avarias com motivo, movimentações com filtro e planilha para o contador. O custo de cada produto é o custo médio das compras.
+
+**Nota do fornecedor pelo XML**: importe o XML da nota (um, vários ou um .zip) e cada item se liga ao produto pelo código de barras ou pelo nome, com o custo real (frete, IPI e ST rateados) e a caixa com 12 virando 12 unidades. O sistema lembra o código de cada fornecedor, confere a nota com o pedido de compra (a mais, a menos, preço acima, fora do pedido), deixa fazer a contagem cega da mercadoria, cria os produtos novos com os dados da nota, sugere o preço que mantém a margem quando o custo sobe e lança as parcelas nas contas a pagar. No fim do mês, os XMLs saem num .zip para o contador.
 
 ![Estoque](docs/estoque.png)
+
+![Nota do fornecedor](docs/estoque-nota.png)
 
 ### Compras
 
@@ -214,6 +218,8 @@ Pague uma vez só ou por mês. Todos os planos têm 7 dias grátis para testar e
 | Balança (etiqueta e ligada ao computador) | Sim | Sim | Sim |
 | Painel de vendas | Simples | Completo | Completo |
 | Gestão de estoque | Sim | Sim | Sim |
+| Entrada pela nota do fornecedor (XML) | Sim | Sim | Sim |
+| Dados fiscais (NCM, CEST, grupos fiscais) | Sim | Sim | Sim |
 | Compras, fornecedores e preço pelo markup | - | Sim | Sim |
 | Clientes | - | Sim | Sim |
 | Etiquetas com código de barras | - | Sim | Sim |
@@ -300,7 +306,7 @@ Não precisa instalar nada: o leitor USB funciona como um teclado. Conecte, abra
 Não para vender. A internet é usada para ativar, para receber atualizações e para os módulos online (loja online, Mercado Livre e acesso de qualquer lugar).
 
 **Emite nota fiscal (NFC-e, SAT)?**
-Não. É um sistema de controle da loja (caixa, estoque, compras e financeiro). Quando a nota fiscal for obrigatória para o seu negócio, use junto com o emissor indicado pela sua contabilidade.
+Ainda não. É um sistema de controle da loja (caixa, estoque, compras e financeiro). O cadastro fiscal (dados da empresa, NCM, CEST, origem e grupos fiscais) já fica pronto no sistema, e as compras entram pelo XML da nota do fornecedor. Enquanto isso, use junto com o emissor indicado pela sua contabilidade.
 
 **Onde ficam os meus dados?**
 No computador da loja, com backup automático todo dia. Você pode escolher uma pasta extra (pendrive, Google Drive, OneDrive) para ter uma cópia fora do computador.
