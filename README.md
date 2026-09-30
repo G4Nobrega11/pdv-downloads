@@ -95,6 +95,22 @@ O mesmo painel no tema escuro (Configurações > Loja > Aparência):
 
 No topo do painel ficam os **alertas**: produtos zerados e abaixo do mínimo, contas vencidas ou vencendo hoje, pedidos de compra atrasados, pedidos de delivery em andamento e dinheiro parado em produtos que não vendem há 60 dias. O menu lateral mostra os números também (quantos produtos repor, quantas contas vencem).
 
+### Relatórios e o lucro de verdade
+
+O painel tem três abas: o Resumo, os Relatórios e as Análises (Ctrl+Tab passa de uma para outra), e o período escolhido em cima vale para todas.
+
+**Relatórios** (planos Médio e Completo): vendas por período, produto, categoria, vendedor, forma de pagamento, horário e canal; descontos e cancelamentos; trocas e devoluções; posição e valor do estoque, **curva ABC**, giro e cobertura, produtos parados, falta de estoque e perdas. No plano Completo, também os financeiros: resultado do mês, contas a pagar e a receber, fluxo de caixa e as taxas das maquininhas. Cada um na tela, impresso, em PDF e em Excel, pronto para mandar ao contador.
+
+![Relatórios do painel](docs/painel-relatorios.png)
+
+**Painel avançado** (plano Completo): quanto o seu negócio lucra de verdade, do preço de tabela ao lucro líquido, com os descontos, as trocas, o custo, as taxas do cartão, a tarifa e o frete do Mercado Livre e as despesas do mês. O **ponto de equilíbrio** mostra quanto vender no mês para pagar as contas, e a margem sai por produto, categoria, fornecedor, operador, forma de pagamento e canal.
+
+![Margem e lucro](docs/painel-margem.png)
+
+Nos produtos, a curva ABC (pelo faturamento, pela quantidade ou pelo lucro), o giro e a cobertura do estoque, o dinheiro parado e a **venda perdida por falta de estoque**, e os que vendem muito com margem baixa (hora de rever o preço). O **simulador** testa um preço ou um custo novo antes de mudar; a **meta do mês** mostra a previsão de fechamento e quanto vender por dia; e as compras mostram o custo que subiu e o preço que mantém a margem.
+
+![Curva ABC dos produtos](docs/painel-produtos.png)
+
 ### Estoque
 
 Quanto você tem, quanto vale (pelo custo e pelo preço de venda), o que precisa repor e tudo o que entrou e saiu. Entrada de mercadoria bipando as peças da nota, inventário com o leitor (dá para continuar vendendo durante a contagem), perdas e avarias com motivo, movimentações com filtro e planilha para o contador. O custo de cada produto é o custo médio das compras.
@@ -109,7 +125,7 @@ Quanto você tem, quanto vale (pelo custo e pelo preço de venda), o que precisa
 
 Do "o que comprar" até pagar o fornecedor:
 
-- **O que comprar**: o sistema calcula a reposição pela média de vendas de cada tamanho e cor, desconta o que já foi pedido e ainda não chegou e garante o estoque mínimo. Separado por fornecedor, com o pedido mínimo de cada um.
+- **O que comprar**: a sugestão é o estoque mínimo mais a venda prevista (pela média de cada tamanho e cor), menos o estoque e o que já foi pedido e ainda não chegou, com a conta à vista em cada linha. Separado por fornecedor, com o pedido mínimo de cada um.
 - **Pedido de compra**: monte em segundos a partir da sugestão e mande pelo WhatsApp do fornecedor (a conversa já abre com o pedido), em PDF ou copiando o texto. Cada pedido mostra se já foi mandado, se chegou uma parte ou se chegou tudo.
 - **Recebimento com conferência**: chegou uma parte? Informe o que chegou; o resto fica em aberto. O estoque e o custo são atualizados e já dá para imprimir as etiquetas das peças que chegaram.
 - **Preço pelo markup**: defina o markup da loja, de cada categoria ou de um produto, e o sistema sugere o preço de venda pelo custo. Mostra os produtos com o preço abaixo do sugerido e corrige todos de uma vez.
@@ -217,6 +233,8 @@ Pague uma vez só ou por mês. Todos os planos têm 7 dias grátis para testar e
 | Pix e maquininha integrados | Sim | Sim | Sim |
 | Balança (etiqueta e ligada ao computador) | Sim | Sim | Sim |
 | Painel de vendas | Simples | Completo | Completo |
+| Relatórios de vendas e de estoque (com a curva ABC), em PDF e Excel | - | Sim | Sim |
+| Relatórios financeiros e painel avançado (lucro de verdade, simulador de preço, metas) | - | - | Sim |
 | Gestão de estoque | Sim | Sim | Sim |
 | Entrada pela nota do fornecedor (XML) | Sim | Sim | Sim |
 | Dados fiscais (NCM, CEST, grupos fiscais) | Sim | Sim | Sim |
@@ -315,7 +333,10 @@ No computador da loja, com backup automático todo dia. Você pode escolher uma 
 Depende do plano: 1 no Básico, 2 no Médio e 3 no Completo. Cada computador ativa com o mesmo código, até o limite do plano.
 
 **Funciona com gaveta de dinheiro e balança?**
-A gaveta que abre pela impressora térmica depende da configuração do driver da impressora. Balança integrada ainda não: o produto por peso é vendido digitando o peso.
+A gaveta que abre pela impressora térmica depende da configuração do driver da impressora. A balança funciona dos dois jeitos: a etiqueta que ela imprime entra bipada no caixa, e a balança ligada ao computador pesa sozinha (Toledo, Filizola, Urano e Elgin).
+
+**Dá para mandar os relatórios para o contador?**
+Sim. Nos planos Médio e Completo, cada relatório do painel sai impresso, em PDF e em Excel (vendas, estoque e, no Completo, o resultado do mês, as contas e o fluxo de caixa). Os XMLs das notas de compra do mês saem num .zip, em Estoque > Notas de compra.
 
 **Tenho os produtos em outro sistema. Preciso cadastrar tudo de novo?**
 Não. Exporte uma planilha do sistema antigo (Excel ou CSV) e importe em Produtos > Importar planilha. Dá para trazer também os fornecedores, os clientes e o histórico de vendas.
@@ -327,7 +348,7 @@ Quem não é administrador pede uma senha provisória ao administrador, em Equip
 Pela internet, sem reinstalar. Quando tiver versão nova, aparece "Atualização pendente" embaixo do menu (e na tela de entrada). Clique, confirme e o sistema reinicia já atualizado, com um backup antes. Se preferir, ela é instalada quando você fechar o sistema.
 
 **Quantos usuários posso criar?**
-Depende do plano: 2 no Básico, 3 no Médio e 5 no Completo, e dá para contratar usuários extras de caixa ou de gerência. Cada pessoa tem o seu login, senha, PIN e crachá, com as permissões do perfil dela; descontos acima do limite pedem a autorização de quem pode liberar.
+Depende do plano: 2 no Básico, 3 no Médio e 5 no Completo, e dá para contratar usuários extras de caixa ou de gerência. Cada pessoa entra escolhendo o próprio nome, com a senha, o PIN ou o crachá, e tem as permissões do perfil dela; o computador pode continuar conectado até a pessoa sair; descontos acima do limite pedem a autorização de quem pode liberar.
 
 ---
 
