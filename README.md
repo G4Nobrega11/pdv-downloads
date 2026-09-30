@@ -3,7 +3,7 @@
 <h3 align="center">Venda rápido, controle o estoque e saiba quanto o seu negócio lucra.</h3>
 
 <p align="center">
-  Caixa com Pix e maquininha integrados, trocas e condicional, estoque, compras, clientes, financeiro, etiquetas, delivery, loja online e Mercado Livre em um só sistema.<br>
+  Caixa com Pix e maquininha integrados, trocas e condicional, estoque, compras, clientes, financeiro, relatórios, etiquetas, delivery, loja online e Mercado Livre em um só sistema.<br>
   Instala sozinho em um minuto e continua vendendo mesmo <b>sem internet</b>.
 </p>
 
@@ -35,7 +35,7 @@ Para quem quer vender rápido, saber quanto ganha e parar de perder dinheiro com
 - **Fácil para quem nunca usou sistema.** O próprio sistema encontra a impressora, explica o que fazer e testa antes de salvar.
 - **Telas limpas, claras ou escuras.** Feitas para o dia inteiro no caixa, com os números alinhados e o que importa em destaque. Escolha o tema claro, o escuro ou o mesmo do Windows.
 - **Seus dados protegidos.** Ficam no computador da loja, com backup automático, usuário e permissão para cada pessoa e histórico de tudo o que foi feito. Veja [Segurança dos seus dados](#segurança-dos-seus-dados).
-- **Atualiza com um clique.** As melhorias chegam pela internet e aparecem como "Atualização pendente": clique, confirme e o sistema reinicia já atualizado, com um backup antes. Ao abrir a versão nova, ele mostra o que mudou.
+- **Atualiza com um clique.** As melhorias chegam pela internet e aparecem como "Atualização pendente": clique e confirme. A instalação aparece na tela, com um backup antes, e em cerca de 30 segundos o sistema abre de novo, já atualizado e com você conectado. Ao abrir a versão nova, ele mostra o que mudou.
 - **Traga o que você já tem.** Importe seus produtos, fornecedores, clientes e até o histórico de vendas de uma planilha do Excel ou de outro sistema.
 
 ---
@@ -128,7 +128,7 @@ Do "o que comprar" até pagar o fornecedor:
 - **O que comprar**: a sugestão é o estoque mínimo mais a venda prevista (pela média de cada tamanho e cor), menos o estoque e o que já foi pedido e ainda não chegou, com a conta à vista em cada linha. Separado por fornecedor, com o pedido mínimo de cada um.
 - **Pedido de compra**: monte em segundos a partir da sugestão e mande pelo WhatsApp do fornecedor (a conversa já abre com o pedido), em PDF ou copiando o texto. Cada pedido mostra se já foi mandado, se chegou uma parte ou se chegou tudo.
 - **Recebimento com conferência**: chegou uma parte? Informe o que chegou; o resto fica em aberto. O estoque e o custo são atualizados e já dá para imprimir as etiquetas das peças que chegaram.
-- **Preço pelo markup**: defina o markup da loja, de cada categoria ou de um produto, e o sistema sugere o preço de venda pelo custo. Mostra os produtos com o preço abaixo do sugerido e corrige todos de uma vez.
+- **Preço pelo markup**: todos os produtos numa lista, com o custo, o preço de hoje, o markup que vale para cada um (o do produto, o da categoria ou o padrão da loja) e o preço sugerido. Filtre pela categoria ou pela situação (abaixo, acima ou no sugerido), aplique o sugerido nos que escolher e leve a lista para o Excel.
 - **Fornecedores**: contato, WhatsApp, prazo de entrega, condição de pagamento, histórico de compras e último custo de cada produto.
 - **Contas a pagar** (com o Financeiro): as parcelas do fornecedor (30/60/90) entram sozinhas no recebimento.
 
@@ -136,11 +136,21 @@ Do "o que comprar" até pagar o fornecedor:
 
 ![Pedido de compra](docs/compras-pedido.png)
 
+![Preços pelo markup](docs/compras-precos.png)
+
 ![Contas a pagar](docs/compras-contas.png)
 
 ### Clientes
 
 Cadastro com CPF ou CNPJ, WhatsApp, aniversário e endereço. No caixa, **Ctrl+I** escolhe o cliente: o nome e o CPF saem no cupom e a compra fica no cadastro dele. Você escolhe como o caixa trata o cliente: não usar (balcão rápido), opcional ou obrigatório em toda venda. Veja o que cada cliente compra, quanto gasta, os aniversariantes do mês e quem não volta há mais de 90 dias. Cadastros repetidos se juntam num só, e dá para trazer os clientes de uma planilha.
+
+![Clientes](docs/clientes.png)
+
+### Equipe
+
+Cada pessoa da loja entra escolhendo o próprio nome e digitando a senha ou o PIN, ou bipando o crachá. O computador pode continuar conectado até a pessoa clicar em Sair, e a tela bloqueia na troca de turno sem fechar o caixa. Cada uma tem o perfil dela (administrador, gerente, caixa, estoquista, financeiro ou um montado por você), e o que passa do limite pede a senha de quem pode liberar, na hora. Veja [Segurança dos seus dados](#segurança-dos-seus-dados).
+
+![Quem vai usar o sistema](docs/entrada.png)
 
 ### Financeiro
 
@@ -189,7 +199,10 @@ Produtos (com grade de tamanho e cor e venda por peso), fornecedores, clientes e
 - **As vendas caem no sistema.** Cada venda paga vira um pedido em Pedidos, para separar e embalar, e baixa o estoque da loja. Venda cancelada no Mercado Livre cancela o pedido e devolve o estoque.
 - **Um estoque só para o balcão e os anúncios.** Vendeu no balcão, o anúncio atualiza em segundos. Antes de ligar, o sistema mostra o que muda em cada anúncio, e a margem de segurança guarda unidades para não vender a mesma peça duas vezes.
 - **Anúncios ligados aos produtos sem digitar tudo de novo.** Quando o SKU do anúncio é o código de barras ou o código do produto, o sistema liga sozinho. Para o resto, ele sugere o produto pelo nome, pela cor e pelo tamanho, e você confirma.
+- **O lucro de verdade de cada venda.** As vendas do Mercado Livre entram no painel, nos relatórios e no resultado do mês com a tarifa e o frete que a loja paga.
 - **Tudo na página Marketplaces:** a conta, os anúncios, o estoque e as vendas. Vendas do Full ficam de fora: o Mercado Livre separa e envia do depósito dele.
+
+![Mercado Livre na página Marketplaces](docs/marketplaces.png)
 
 ---
 
@@ -345,7 +358,7 @@ Não. Exporte uma planilha do sistema antigo (Excel ou CSV) e importe em Produto
 Quem não é administrador pede uma senha provisória ao administrador, em Equipe. O administrador clica em "Sou o administrador e esqueci a senha", na tela de entrada, e cria uma senha nova com a chave de ativação da compra. Perdeu a chave? O vendedor manda de novo.
 
 **Como chegam as atualizações?**
-Pela internet, sem reinstalar. Quando tiver versão nova, aparece "Atualização pendente" embaixo do menu (e na tela de entrada). Clique, confirme e o sistema reinicia já atualizado, com um backup antes. Se preferir, ela é instalada quando você fechar o sistema.
+Pela internet, sem reinstalar. Quando tiver versão nova, aparece "Atualização pendente" embaixo do menu (e na tela de entrada). Clique e confirme: a instalação aparece na tela, com um backup antes, e o sistema abre de novo sozinho, já atualizado e com você conectado. Se preferir, ela é instalada quando você fechar o sistema.
 
 **Quantos usuários posso criar?**
 Depende do plano: 2 no Básico, 3 no Médio e 5 no Completo, e dá para contratar usuários extras de caixa ou de gerência. Cada pessoa entra escolhendo o próprio nome, com a senha, o PIN ou o crachá, e tem as permissões do perfil dela; o computador pode continuar conectado até a pessoa sair; descontos acima do limite pedem a autorização de quem pode liberar.
