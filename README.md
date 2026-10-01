@@ -33,10 +33,13 @@ Para quem quer vender rápido, saber quanto ganha e parar de perder dinheiro com
 - **Rápido de verdade.** Venda inteira pelo teclado e pelo leitor: bipou, apertou F9, a tecla da forma de pagamento (F2 dinheiro, F3 PIX, F5 crédito) e Enter. A venda termina na hora, sem esperar a impressora, e todas as teclas ficam à vista no caixa. Aperte F1 em qualquer tela para ver a lista.
 - **Pix que não dá para fingir.** A venda só fecha quando o Pix cai na conta. O cliente lê o QR na maquininha, num monitor virado para ele ou no papel: ninguém vira a tela do caixa.
 - **Fácil para quem nunca usou sistema.** O próprio sistema encontra a impressora, explica o que fazer e testa antes de salvar.
+- **Tudo fácil de achar.** O menu separa o sistema por área: Vendas, Produtos, Financeiro, Painel. Passe o mouse numa área e as telas dela abrem ao lado, com as partes de cada uma; um clique leva direto. Pelo teclado, Alt+M abre o menu e as setas escolhem.
 - **Telas limpas, claras ou escuras.** Feitas para o dia inteiro no caixa, com os números alinhados e o que importa em destaque. Escolha o tema claro, o escuro ou o mesmo do Windows.
 - **Seus dados protegidos.** Ficam no computador da loja, com backup automático, usuário e permissão para cada pessoa e histórico de tudo o que foi feito. Veja [Segurança dos seus dados](#segurança-dos-seus-dados).
 - **Atualiza com um clique.** As melhorias chegam pela internet e aparecem como "Atualização pendente": clique e confirme. A instalação aparece na tela, com um backup antes, e em cerca de 30 segundos o sistema abre de novo, já atualizado e com você conectado. Ao abrir a versão nova, ele mostra o que mudou.
 - **Traga o que você já tem.** Importe seus produtos, fornecedores, clientes e até o histórico de vendas de uma planilha do Excel ou de outro sistema.
+
+![Menu por área: Produtos, com as partes do Estoque ao lado](docs/menu.png)
 
 ---
 
