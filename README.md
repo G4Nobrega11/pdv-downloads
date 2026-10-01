@@ -3,7 +3,7 @@
 <h3 align="center">Venda rápido, controle o estoque e saiba quanto o seu negócio lucra.</h3>
 
 <p align="center">
-  Caixa com Pix e maquininha integrados, trocas e condicional, estoque, compras, clientes, financeiro, relatórios, etiquetas, delivery, loja online e Mercado Livre em um só sistema.<br>
+  Caixa com Pix e maquininha integrados, vários caixas no mesmo estoque, trocas e condicional, estoque, compras, clientes, financeiro, relatórios, etiquetas, delivery, loja online e Mercado Livre em um só sistema.<br>
   Instala sozinho em um minuto e continua vendendo mesmo <b>sem internet</b>.
 </p>
 
@@ -30,7 +30,8 @@ Para quem quer vender rápido, saber quanto ganha e parar de perder dinheiro com
 ## Por que este sistema
 
 - **Não para quando a internet cai.** Tudo fica salvo no computador da loja. A internet só é usada para ativar e para os módulos online.
-- **Rápido de verdade.** Venda inteira pelo teclado e pelo leitor: bipou, apertou F9, a tecla da forma de pagamento (F2 dinheiro, F3 PIX, F5 crédito) e Enter. A venda termina na hora, sem esperar a impressora, e todas as teclas ficam à vista no caixa. Aperte F1 em qualquer tela para ver a lista.
+- **Vários caixas, um estoque só.** Os computadores da loja vendem do mesmo estoque, pela rede da loja e sem precisar de internet, cada caixa com a sua gaveta, a sua impressora e a sua maquininha.
+- **Rápido de verdade.** Venda inteira pelo teclado e pelo leitor: bipou, apertou F9, a tecla da forma de pagamento (F2 dinheiro, F3 PIX, F5 crédito) e Enter. A venda termina na hora, sem esperar a impressora, e todas as teclas ficam à vista no caixa. Aperte F1 em qualquer tela para ver a lista: nenhum atalho passa de duas teclas, e quem tem dificuldade de apertar duas juntas encontra ali como apertar uma de cada vez.
 - **Pix que não dá para fingir.** A venda só fecha quando o Pix cai na conta. O cliente lê o QR na maquininha, num monitor virado para ele ou no papel: ninguém vira a tela do caixa.
 - **Fácil para quem nunca usou sistema.** O próprio sistema encontra a impressora, explica o que fazer e testa antes de salvar.
 - **Tudo fácil de achar.** O menu separa o sistema por área: Vendas, Produtos, Financeiro, Painel. Passe o mouse numa área e as telas dela abrem ao lado, com as partes de cada uma; um clique leva direto. Pelo teclado, Alt+M abre o menu e as setas escolhem.
@@ -48,7 +49,18 @@ Para quem quer vender rápido, saber quanto ganha e parar de perder dinheiro com
 
 ### Caixa rápido
 
-Leitor de código de barras ou busca por nome, com a lista de produtos aparecendo enquanto você digita. Quantidade com `3*` antes do código, desconto com senha do gerente, várias formas de pagamento na mesma venda, troco calculado, sangria e suprimento, fechamento com conferência de cada forma de pagamento. Precisa cancelar ou reimprimir uma venda do dia? **Ctrl+H** mostra as vendas de hoje sem sair do caixa. Cupom em impressora térmica (80 ou 58 mm) ou em folha A4.
+Leitor de código de barras ou busca por nome, com a lista de produtos aparecendo enquanto você digita. Quantidade com `3*` antes do código, código da caixa fechada que vende a quantidade dela (a caixa com 12, o fardo com 6), desconto com senha do gerente, várias formas de pagamento na mesma venda, troco calculado, sangria e suprimento, fechamento com conferência de cada forma de pagamento. Precisa cancelar ou reimprimir uma venda do dia? **Ctrl+H** mostra as vendas de hoje sem sair do caixa. Cupom em impressora térmica (80 ou 58 mm) ou em folha A4.
+
+### Vários caixas no mesmo estoque
+
+Nos planos Médio (2 computadores) e Completo (3).
+
+- **Um estoque só.** O computador principal guarda os dados da loja e os outros viram caixas dele, pela rede da loja (cabo ou Wi-Fi), sem precisar de internet. Vendeu em um caixa, o estoque baixa para todos.
+- **Cada caixa com o que é dele.** O caixa aberto, a gaveta, a impressora, a balança e a maquininha são de cada computador. No Financeiro, cada gaveta aparece com o nome do computador.
+- **Ligar um caixa leva um minuto.** No principal, Configurações > Computadores da loja mostra um código. No outro computador, digite o código e confira o número que aparece igual nas duas telas.
+- **Sem o principal, o caixa espera e volta sozinho.** Se o principal desligar ou a rede cair, o caixa avisa, a venda em andamento continua na tela e tudo volta sozinho quando o principal volta.
+
+![Computadores da loja](docs/computadores.png)
 
 ### Pix e maquininha integrados
 
@@ -117,7 +129,7 @@ Nos produtos, a curva ABC (pelo faturamento, pela quantidade ou pelo lucro), o g
 
 ### Estoque
 
-Quanto você tem, quanto vale (pelo custo e pelo preço de venda), o que precisa repor e tudo o que entrou e saiu. Entrada de mercadoria bipando as peças da nota, inventário com o leitor (dá para continuar vendendo durante a contagem), perdas e avarias com motivo, movimentações com filtro e planilha para o contador. O custo de cada produto é o custo médio das compras.
+Quanto você tem, quanto vale (pelo custo e pelo preço de venda), o que precisa repor e tudo o que entrou e saiu. Entrada de mercadoria bipando as peças da nota, inventário com o leitor (dá para continuar vendendo durante a contagem), perdas e avarias com motivo, movimentações com filtro e planilha para o contador. O custo de cada produto é o custo médio das compras. Cada produto pode ter códigos extras com a quantidade (a caixa com 12, o fardo com 6 ou um segundo código de barras), e a entrada, o inventário e a nota do fornecedor contam certo.
 
 **Nota do fornecedor pelo XML**: importe o XML da nota (um, vários ou um .zip) e cada item se liga ao produto pelo código de barras ou pelo nome, com o custo real (frete, IPI e ST rateados) e a caixa com 12 virando 12 unidades. O sistema lembra o código de cada fornecedor, confere a nota com o pedido de compra (a mais, a menos, preço acima, fora do pedido), deixa fazer a contagem cega da mercadoria, cria os produtos novos com os dados da nota, sugere o preço que mantém a margem quando o custo sobe e lança as parcelas nas contas a pagar. No fim do mês, os XMLs saem num .zip para o contador.
 
@@ -180,7 +192,7 @@ Para produtos sem código ou com código próprio da loja: etiqueta com ou sem p
 
 ### Importar planilha
 
-Produtos (com grade de tamanho e cor e venda por peso), fornecedores, clientes e histórico de vendas. Excel (.xlsx) ou CSV, inclusive o que outros sistemas exportam. O sistema reconhece as colunas sozinho, mostra **exatamente** o que vai entrar, o que vai ser atualizado e as linhas com problema, e faz um backup antes de importar.
+Produtos (com grade de tamanho e cor e venda por peso), fornecedores, clientes e histórico de vendas. Excel (.xlsx) ou CSV, inclusive o que outros sistemas exportam (a planilha de produtos do Bling entra com as variações e o código da embalagem). O sistema reconhece as colunas sozinho, mostra **exatamente** o que vai entrar, o que vai ser atualizado e as linhas com problema, e faz um backup antes de importar.
 
 ![Importar planilha](docs/importar.png)
 
@@ -225,6 +237,7 @@ São os números do seu negócio: vendas, clientes, custos e contas. O sistema f
 - **Fiado com trava.** Limite de crédito por cliente e, se precisar, o bloqueio da venda a prazo para quem está devendo.
 - **Troca de operador sem fechar o caixa.** A tela bloqueia com Ctrl+B ou sozinha, depois do tempo que você escolher, e volta com o PIN ou o crachá.
 - **Celular do dono sem expor a senha.** Pelo Wi-Fi da loja, o celular é pareado pelo código na tela do computador e a senha nunca passa pela rede; o painel só abre na rede da loja e você desconecta cada celular quando quiser. De qualquer lugar, o acesso é por link privado e PIN, com conexão cifrada, e bloqueia depois de 5 PINs errados.
+- **Vários caixas com conversa cifrada.** Os computadores da loja conversam pela rede da loja com conexão cifrada. Só entra o computador aceito no principal, com um número conferido nas duas telas, e o principal desliga um caixa na hora.
 - **Atualização só da fonte oficial.** O sistema só instala versões publicadas pelo fornecedor do sistema, e faz um backup antes.
 - **Licença com assinatura digital.** Não dá para falsificar nem copiar para outro computador.
 - **Pagamento integrado com trava.** As senhas e os certificados da maquininha e do banco ficam cifrados no computador; cada Pix ou cartão aprovado vale para uma venda só; e cartão ou Pix lançado à mão, com a integração ligada, só passa com a autorização de quem pode liberar.
@@ -243,7 +256,7 @@ Pague uma vez só ou por mês. Todos os planos têm 7 dias grátis para testar e
 |---|---|---|---|
 | **Pagamento único** | **R$ 49,90** | **R$ 69,90** | **R$ 99,90** |
 | **Ou por mês** | R$ 19,90 | R$ 29,90 | R$ 49,90 |
-| Computadores | 1 | 2 | 3 |
+| Computadores (no mesmo estoque) | 1 | 2 | 3 |
 | Usuários incluídos | 2 | 3 | 5 |
 | Caixa, produtos, vendas, cupom, backup e importação de planilhas | Sim | Sim | Sim |
 | Trocas, devoluções, vale-troca e condicional | Sim | Sim | Sim |
@@ -347,7 +360,7 @@ Ainda não. É um sistema de controle da loja (caixa, estoque, compras e finance
 No computador da loja, com backup automático todo dia. Você pode escolher uma pasta extra (pendrive, Google Drive, OneDrive) para ter uma cópia fora do computador.
 
 **Posso usar em mais de um computador?**
-Depende do plano: 1 no Básico, 2 no Médio e 3 no Completo. Cada computador ativa com o mesmo código, até o limite do plano.
+Sim, com o mesmo estoque: o computador principal guarda os dados e os outros viram caixas dele pela rede da loja, sem precisar de internet. Quantos, o plano diz: 1 no Básico, 2 no Médio e 3 no Completo.
 
 **Funciona com gaveta de dinheiro e balança?**
 A gaveta que abre pela impressora térmica depende da configuração do driver da impressora. A balança funciona dos dois jeitos: a etiqueta que ela imprime entra bipada no caixa, e a balança ligada ao computador pesa sozinha (Toledo, Filizola, Urano e Elgin).
@@ -356,7 +369,7 @@ A gaveta que abre pela impressora térmica depende da configuração do driver d
 Sim. Nos planos Médio e Completo, cada relatório do painel sai impresso, em PDF e em Excel (vendas, estoque e, no Completo, o resultado do mês, as contas e o fluxo de caixa). Os XMLs das notas de compra do mês saem num .zip, em Estoque > Notas de compra.
 
 **Tenho os produtos em outro sistema. Preciso cadastrar tudo de novo?**
-Não. Exporte uma planilha do sistema antigo (Excel ou CSV) e importe em Produtos > Importar planilha. Dá para trazer também os fornecedores, os clientes e o histórico de vendas.
+Não. Exporte uma planilha do sistema antigo (Excel ou CSV) e importe em Produtos > Importar planilha. Dá para trazer também os fornecedores, os clientes e o histórico de vendas. A planilha de produtos que o Bling exporta o sistema reconhece sozinho, com as variações de tamanho e cor.
 
 **Esqueci a senha. E agora?**
 Quem não é administrador pede uma senha provisória ao administrador, em Equipe. O administrador clica em "Sou o administrador e esqueci a senha", na tela de entrada, e cria uma senha nova com a chave de ativação da compra. Perdeu a chave? O vendedor manda de novo.
