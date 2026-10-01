@@ -338,7 +338,7 @@ Não precisa instalar nada: o leitor USB funciona como um teclado. Conecte, abra
 ## Perguntas frequentes
 
 **Precisa de internet?**
-Não para vender. A internet é usada para ativar, para receber atualizações e para os módulos online (loja online, Mercado Livre e acesso de qualquer lugar).
+Não para vender. A internet é usada para ativar, para receber atualizações, para falar com o suporte e para os módulos online (loja online, Mercado Livre e acesso de qualquer lugar).
 
 **Emite nota fiscal (NFC-e, SAT)?**
 Ainda não. É um sistema de controle da loja (caixa, estoque, compras e financeiro). O cadastro fiscal (dados da empresa, NCM, CEST, origem e grupos fiscais) já fica pronto no sistema, e as compras entram pelo XML da nota do fornecedor. Enquanto isso, use junto com o emissor indicado pela sua contabilidade.
@@ -364,6 +364,9 @@ Quem não é administrador pede uma senha provisória ao administrador, em Equip
 **Como chegam as atualizações?**
 Pela internet, sem reinstalar. Quando tiver versão nova, aparece "Atualização pendente" embaixo do menu (e na tela de entrada). Clique e confirme: a instalação aparece na tela, com um backup antes, e o sistema abre de novo sozinho, já atualizado e com você conectado. Se preferir, ela é instalada quando você fechar o sistema.
 
+**Como peço ajuda?**
+Aperte Ctrl+F1 em qualquer tela e conte o que aconteceu. O chamado vai com o print da tela, e a resposta aparece no próprio sistema. Veja [Suporte](#suporte).
+
 **Quantos usuários posso criar?**
 Depende do plano: 2 no Básico, 3 no Médio e 5 no Completo, e dá para contratar usuários extras de caixa ou de gerência. Cada pessoa entra escolhendo o próprio nome, com a senha, o PIN ou o crachá, e tem as permissões do perfil dela; o computador pode continuar conectado até a pessoa sair; descontos acima do limite pedem a autorização de quem pode liberar.
 
@@ -371,7 +374,15 @@ Depende do plano: 2 no Básico, 3 no Médio e 5 no Completo, e dá para contrata
 
 ## Suporte
 
-Fale com quem te vendeu o sistema, pelo WhatsApp informado na compra. Dentro do sistema, os módulos que não estão no seu plano têm o botão **Pedir para liberar**, que já abre a conversa com a mensagem pronta.
+O suporte fica dentro do sistema. Aperte **Ctrl+F1** em qualquer tela (ou clique em **Suporte**, no pé do menu), escreva o assunto e conte o que aconteceu. O chamado vai com o print da tela de onde você abriu e com o diagnóstico do sistema (a versão, o Windows e os erros recentes; nada de senhas nem dados de clientes), direto para a equipe do sistema.
+
+![Novo chamado, com o print da tela junto](docs/suporte-novo.png)
+
+A resposta aparece no próprio sistema, numa conversa, e o menu mostra **Suporte respondeu** quando ela chega. Dá para responder de volta e marcar como resolvido; se o problema voltar, é só escrever no mesmo chamado. Sem internet, o chamado fica guardado e sai sozinho quando a conexão voltar.
+
+![A resposta do suporte no sistema](docs/suporte.png)
+
+No período de teste, fale com quem te vendeu o sistema, pelo WhatsApp informado na compra. Os módulos que não estão no seu plano têm o botão **Pedir para liberar**, que já abre a conversa com a mensagem pronta.
 
 <p align="center">
   <a href="https://github.com/G4Nobrega11/pdv-downloads/releases/latest/download/PDV-Instalador.exe"><b>Baixar o instalador para Windows</b></a>
