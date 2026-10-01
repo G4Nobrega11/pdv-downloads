@@ -36,6 +36,7 @@ Para quem quer vender rápido, saber quanto ganha e parar de perder dinheiro com
 - **Tudo fácil de achar.** O menu separa o sistema por área: Vendas, Produtos, Financeiro, Painel. Passe o mouse numa área e as telas dela abrem ao lado, com as partes de cada uma; um clique leva direto. Pelo teclado, Alt+M abre o menu e as setas escolhem.
 - **Telas limpas, claras ou escuras.** Feitas para o dia inteiro no caixa, com os números alinhados e o que importa em destaque. Escolha o tema claro, o escuro ou o mesmo do Windows.
 - **Seus dados protegidos.** Ficam no computador da loja, com backup automático, usuário e permissão para cada pessoa e histórico de tudo o que foi feito. Veja [Segurança dos seus dados](#segurança-dos-seus-dados).
+- **Suporte dentro do sistema.** Aperte Ctrl+F1 em qualquer tela, conte o que aconteceu e o chamado vai com o print da tela para a equipe do sistema. A resposta aparece ali mesmo, e o menu avisa quando chegar.
 - **Atualiza com um clique.** As melhorias chegam pela internet e aparecem como "Atualização pendente": clique e confirme. A instalação aparece na tela, com um backup antes, e em cerca de 30 segundos o sistema abre de novo, já atualizado e com você conectado. Ao abrir a versão nova, ele mostra o que mudou.
 - **Traga o que você já tem.** Importe seus produtos, fornecedores, clientes e até o histórico de vendas de uma planilha do Excel ou de outro sistema.
 
