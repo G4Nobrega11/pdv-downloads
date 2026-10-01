@@ -12,7 +12,12 @@
   &nbsp;·&nbsp; Windows 10 e 11
 </p>
 
-![Caixa](docs/caixa.png)
+![Caixa no formato de mercado, com a logo da loja no canto e os valores em letras grandes](docs/caixa-mercado.png)
+
+<p align="center">
+  <b>Duas telas de caixa, você escolhe:</b> a de mercado (acima), com a logo da loja e os valores grandes, ou a <a href="#caixa-rápido">clássica</a>, com a foto de cada peça.<br>
+  Para trocar, Configurações &gt; Caixa e leitor, em cada computador.
+</p>
 
 ---
 
@@ -40,7 +45,7 @@ Para quem quer vender rápido, saber quanto ganha e parar de perder dinheiro com
 - **Com a cara da sua loja.** Ponha a sua logo e ela aparece no menu, no canto do caixa de mercado, na tela de entrada, no cupom e na loja online. Qualquer imagem serve: o sistema tira as bordas vazias e ajusta sem cortar.
 - **Seus dados protegidos.** Ficam no computador da loja, com backup automático, usuário e permissão para cada pessoa e histórico de tudo o que foi feito. Veja [Segurança dos seus dados](#segurança-dos-seus-dados).
 - **Suporte dentro do sistema.** Aperte Ctrl+F1 em qualquer tela, conte o que aconteceu e o chamado vai com o print da tela para a equipe do sistema. A resposta aparece ali mesmo, e o menu avisa quando chegar.
-- **Atualiza com um clique.** As melhorias chegam pela internet e aparecem como "Atualização pendente": clique e confirme. A instalação aparece na tela, com um backup antes, e em cerca de 30 segundos o sistema abre de novo, já atualizado e com você conectado. Ao abrir a versão nova, ele mostra o que mudou.
+- **Atualiza com um clique.** As melhorias chegam pela internet e aparecem como "Atualização pendente": clique e confirme. Uma barra mostra o andamento (quanto já baixou, a velocidade e quanto falta), o backup é feito antes, a instalação aparece na tela e em cerca de 30 segundos o sistema abre de novo, já atualizado e com você conectado. Ao abrir a versão nova, ele mostra o que mudou.
 - **Traga o que você já tem.** Importe seus produtos, fornecedores, clientes e até o histórico de vendas de uma planilha do Excel ou de outro sistema.
 
 ![Menu por área: Produtos, com as partes do Estoque ao lado](docs/menu.png)
@@ -58,9 +63,9 @@ Leitor de código de barras ou busca por nome, com a lista de produtos aparecend
 - **Mercado**: a logo da sua loja grande no canto, o produto que passou em letras grandes, a lista com o código, a quantidade, o valor unitário e o total do item, e o total a pagar, o recebido e o troco em números grandes, para o operador e o cliente lerem de longe. Depois da venda, o recebido e o troco ficam na tela até passar o próximo produto. O caixa usa a tela inteira: o menu fica recolhido e abre por cima com Alt+M ou com o botão Menu. As teclas ficam numa faixa embaixo, todas à vista. É a que vem no mercadinho e no depósito.
 - **Clássica**: a lista com a foto de cada peça, o total ao lado e as teclas em botões, com o menu à vista. É a que vem em roupas e lanchonete.
 
-Para trocar, Configurações > Caixa e leitor > Tela do caixa. Cada computador da loja usa a que preferir.
+Para trocar, Configurações > Caixa e leitor > Tela do caixa. Cada computador da loja usa a que preferir. A de mercado está no topo desta página; a clássica é esta:
 
-![Caixa no formato de mercado, com a logo da loja no canto](docs/caixa-mercado.png)
+![Caixa clássico, com a foto de cada peça e as teclas ao lado da venda](docs/caixa.png)
 
 ### Vários caixas no mesmo estoque
 
