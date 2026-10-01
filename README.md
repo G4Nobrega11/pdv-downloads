@@ -36,6 +36,7 @@ Para quem quer vender rápido, saber quanto ganha e parar de perder dinheiro com
 - **Fácil para quem nunca usou sistema.** O próprio sistema encontra a impressora, explica o que fazer e testa antes de salvar.
 - **Tudo fácil de achar.** O menu separa o sistema por área: Vendas, Produtos, Financeiro, Painel. Passe o mouse numa área e as telas dela abrem ao lado, com as partes de cada uma; um clique leva direto. Pelo teclado, Alt+M abre o menu e as setas escolhem.
 - **Telas limpas, claras ou escuras.** Feitas para o dia inteiro no caixa, com os números alinhados e o que importa em destaque. Escolha o tema claro, o escuro ou o mesmo do Windows.
+- **Com a cara da sua loja.** Ponha a sua logo e ela aparece no menu, na tela de entrada, no cupom e na loja online. Qualquer imagem serve: o sistema tira as bordas vazias e ajusta sem cortar.
 - **Seus dados protegidos.** Ficam no computador da loja, com backup automático, usuário e permissão para cada pessoa e histórico de tudo o que foi feito. Veja [Segurança dos seus dados](#segurança-dos-seus-dados).
 - **Suporte dentro do sistema.** Aperte Ctrl+F1 em qualquer tela, conte o que aconteceu e o chamado vai com o print da tela para a equipe do sistema. A resposta aparece ali mesmo, e o menu avisa quando chegar.
 - **Atualiza com um clique.** As melhorias chegam pela internet e aparecem como "Atualização pendente": clique e confirme. A instalação aparece na tela, com um backup antes, e em cerca de 30 segundos o sistema abre de novo, já atualizado e com você conectado. Ao abrir a versão nova, ele mostra o que mudou.
@@ -167,6 +168,12 @@ Cadastro com CPF ou CNPJ, WhatsApp, aniversário e endereço. No caixa, **Ctrl+I
 Cada pessoa da loja entra escolhendo o próprio nome e digitando a senha ou o PIN, ou bipando o crachá. O computador pode continuar conectado até a pessoa clicar em Sair, e a tela bloqueia na troca de turno sem fechar o caixa. Cada uma tem o perfil dela (administrador, gerente, caixa, estoquista, financeiro ou um montado por você), e o que passa do limite pede a senha de quem pode liberar, na hora. Veja [Segurança dos seus dados](#segurança-dos-seus-dados).
 
 ![Quem vai usar o sistema](docs/entrada.png)
+
+### A sua logo
+
+Em Configurações > Loja, escolha a imagem da logo (ou arraste, ou cole). O ideal é quadrada e com fundo transparente, mas qualquer uma serve: o sistema tira as bordas vazias, ajusta sem cortar e mostra como fica no menu claro, no escuro e no cupom. Logo branca ganha um fundo escuro na tela e sai escura no papel. No cupom ela sai em preto e branco, e dá para desligar em cada computador se a impressora imprimir mal.
+
+![A logo da loja em Configurações](docs/logo.png)
 
 ### Financeiro
 
