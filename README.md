@@ -51,7 +51,7 @@ Para quem quer vender rápido, saber quanto ganha e parar de perder dinheiro com
 
 ### Caixa rápido
 
-Leitor de código de barras ou busca por nome, com a lista de produtos aparecendo enquanto você digita. Quantidade com `3*` antes do código, código da caixa fechada que vende a quantidade dela (a caixa com 12, o fardo com 6), desconto com senha do gerente, várias formas de pagamento na mesma venda, troco calculado, sangria e suprimento, fechamento com conferência de cada forma de pagamento. Precisa cancelar ou reimprimir uma venda do dia? **Ctrl+H** mostra as vendas de hoje sem sair do caixa. Cupom em impressora térmica (80 ou 58 mm) ou em folha A4.
+Leitor de código de barras ou busca por nome, com a lista de produtos aparecendo enquanto você digita. Várias unidades do mesmo produto: `5*` antes do bipe (a quantidade aparece na tela antes de bipar) ou bipe uma vez e aperte **+** e **−** no teclado numérico, código da caixa fechada que vende a quantidade dela (a caixa com 12, o fardo com 6), desconto com senha do gerente, várias formas de pagamento na mesma venda, troco calculado, sangria e suprimento, fechamento com conferência de cada forma de pagamento. Precisa cancelar ou reimprimir uma venda do dia? **Ctrl+H** mostra as vendas de hoje sem sair do caixa. Cupom em impressora térmica (80 ou 58 mm) ou em folha A4.
 
 **Duas telas de caixa, você escolhe:**
 
