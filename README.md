@@ -22,8 +22,8 @@ Para quem quer vender rápido, saber quanto ganha e parar de perder dinheiro com
 
 | Tipo de negócio | O que o sistema resolve |
 |---|---|
-| **Roupas e calçados** | Grade de tamanho e cor, etiqueta com código de barras para cada peça, troca com vale-troca e condicional (o cliente leva para provar) |
-| **Mercadinho, padaria, açougue e granel** | Venda por peso (kg, g, litro, metro), etiqueta da balança lida no caixa, balança ligada ao computador, preço de atacado automático, leitor de código de barras |
+| **Roupas e calçados** | Grade de tamanho e cor, etiqueta com código de barras para cada peça, troca com vale-troca e condicional (o cliente leva para provar), caixa com a foto de cada peça |
+| **Mercadinho, depósito, padaria, açougue e granel** | Caixa no formato de mercado (a logo da loja no canto, o produto, o total e o troco em letras grandes), venda por peso (kg, g, litro, metro), etiqueta da balança lida no caixa, balança ligada ao computador, preço de atacado automático, leitor de código de barras |
 | **Lanchonete e restaurante** | Adicionais (bacon, borda), observação por item, via da cozinha, delivery e retirada |
 | **Comércio em geral** | Tudo o que está acima, ligado ou desligado conforme a sua necessidade |
 
@@ -32,11 +32,12 @@ Para quem quer vender rápido, saber quanto ganha e parar de perder dinheiro com
 - **Não para quando a internet cai.** Tudo fica salvo no computador da loja. A internet só é usada para ativar e para os módulos online.
 - **Vários caixas, um estoque só.** Os computadores da loja vendem do mesmo estoque, pela rede da loja e sem precisar de internet, cada caixa com a sua gaveta, a sua impressora e a sua maquininha.
 - **Rápido de verdade.** Venda inteira pelo teclado e pelo leitor: bipou, apertou F9, a tecla da forma de pagamento (F2 dinheiro, F3 PIX, F5 crédito) e Enter. A venda termina na hora, sem esperar a impressora, e todas as teclas ficam à vista no caixa. Aperte F1 em qualquer tela para ver a lista: nenhum atalho passa de duas teclas, e quem tem dificuldade de apertar duas juntas encontra ali como apertar uma de cada vez.
+- **Caixa do jeito da sua loja.** Duas telas de caixa, e você escolhe. A de mercado tem a logo da loja grande no canto e o produto que passou, o total, o recebido e o troco em letras grandes, para ler de longe, usando a tela inteira: é a que vem no mercadinho e no depósito. A clássica mostra a foto de cada peça e as teclas em botões ao lado da venda: é a que vem em roupas e lanchonete. Para trocar, Configurações > Caixa e leitor, em cada computador.
 - **Pix que não dá para fingir.** A venda só fecha quando o Pix cai na conta. O cliente lê o QR na maquininha, num monitor virado para ele ou no papel: ninguém vira a tela do caixa.
 - **Fácil para quem nunca usou sistema.** O próprio sistema encontra a impressora, explica o que fazer e testa antes de salvar.
 - **Tudo fácil de achar.** O menu separa o sistema por área: Vendas, Produtos, Financeiro, Painel. Passe o mouse numa área e as telas dela abrem ao lado, com as partes de cada uma; um clique leva direto. Pelo teclado, Alt+M abre o menu e as setas escolhem.
 - **Telas limpas, claras ou escuras.** Feitas para o dia inteiro no caixa, com os números alinhados e o que importa em destaque. Escolha o tema claro, o escuro ou o mesmo do Windows.
-- **Com a cara da sua loja.** Ponha a sua logo e ela aparece no menu, na tela de entrada, no cupom e na loja online. Qualquer imagem serve: o sistema tira as bordas vazias e ajusta sem cortar.
+- **Com a cara da sua loja.** Ponha a sua logo e ela aparece no menu, no canto do caixa de mercado, na tela de entrada, no cupom e na loja online. Qualquer imagem serve: o sistema tira as bordas vazias e ajusta sem cortar.
 - **Seus dados protegidos.** Ficam no computador da loja, com backup automático, usuário e permissão para cada pessoa e histórico de tudo o que foi feito. Veja [Segurança dos seus dados](#segurança-dos-seus-dados).
 - **Suporte dentro do sistema.** Aperte Ctrl+F1 em qualquer tela, conte o que aconteceu e o chamado vai com o print da tela para a equipe do sistema. A resposta aparece ali mesmo, e o menu avisa quando chegar.
 - **Atualiza com um clique.** As melhorias chegam pela internet e aparecem como "Atualização pendente": clique e confirme. A instalação aparece na tela, com um backup antes, e em cerca de 30 segundos o sistema abre de novo, já atualizado e com você conectado. Ao abrir a versão nova, ele mostra o que mudou.
@@ -51,6 +52,15 @@ Para quem quer vender rápido, saber quanto ganha e parar de perder dinheiro com
 ### Caixa rápido
 
 Leitor de código de barras ou busca por nome, com a lista de produtos aparecendo enquanto você digita. Quantidade com `3*` antes do código, código da caixa fechada que vende a quantidade dela (a caixa com 12, o fardo com 6), desconto com senha do gerente, várias formas de pagamento na mesma venda, troco calculado, sangria e suprimento, fechamento com conferência de cada forma de pagamento. Precisa cancelar ou reimprimir uma venda do dia? **Ctrl+H** mostra as vendas de hoje sem sair do caixa. Cupom em impressora térmica (80 ou 58 mm) ou em folha A4.
+
+**Duas telas de caixa, você escolhe:**
+
+- **Mercado**: a logo da sua loja grande no canto, o produto que passou em letras grandes, a lista com o código, a quantidade, o valor unitário e o total do item, e o total a pagar, o recebido e o troco em números grandes, para o operador e o cliente lerem de longe. Depois da venda, o recebido e o troco ficam na tela até passar o próximo produto. O caixa usa a tela inteira: o menu fica recolhido e abre por cima com Alt+M ou com o botão Menu. As teclas ficam numa faixa embaixo, todas à vista. É a que vem no mercadinho e no depósito.
+- **Clássica**: a lista com a foto de cada peça, o total ao lado e as teclas em botões, com o menu à vista. É a que vem em roupas e lanchonete.
+
+Para trocar, Configurações > Caixa e leitor > Tela do caixa. Cada computador da loja usa a que preferir.
+
+![Caixa no formato de mercado, com a logo da loja no canto](docs/caixa-mercado.png)
 
 ### Vários caixas no mesmo estoque
 
@@ -368,6 +378,9 @@ No computador da loja, com backup automático todo dia. Você pode escolher uma 
 
 **Posso usar em mais de um computador?**
 Sim, com o mesmo estoque: o computador principal guarda os dados e os outros viram caixas dele pela rede da loja, sem precisar de internet. Quantos, o plano diz: 1 no Básico, 2 no Médio e 3 no Completo.
+
+**Posso escolher a tela do caixa?**
+Sim. São duas: a de mercado, com a logo da loja no canto e o produto, o total e o troco em letras grandes (a que vem no mercadinho e no depósito), e a clássica, com a foto de cada peça (a que vem em roupas e lanchonete). Troque em Configurações > Caixa e leitor > Tela do caixa, em cada computador.
 
 **Funciona com gaveta de dinheiro e balança?**
 A gaveta que abre pela impressora térmica depende da configuração do driver da impressora. A balança funciona dos dois jeitos: a etiqueta que ela imprime entra bipada no caixa, e a balança ligada ao computador pesa sozinha (Toledo, Filizola, Urano e Elgin).
