@@ -36,7 +36,7 @@ Para quem quer vender rápido, saber quanto ganha e parar de perder dinheiro com
 - **Pix que não dá para fingir.** A venda só fecha quando o Pix cai na conta. O cliente lê o QR na maquininha, num monitor virado para ele ou no papel: ninguém vira a tela do caixa.
 - **Fácil para quem nunca usou sistema.** O próprio sistema encontra a impressora, explica o que fazer e testa antes de salvar.
 - **Tudo fácil de achar.** O menu separa o sistema por área: Vendas, Produtos, Financeiro, Painel. Passe o mouse numa área e as telas dela abrem ao lado, com as partes de cada uma; um clique leva direto. Pelo teclado, Alt+M abre o menu e as setas escolhem.
-- **Telas limpas, claras ou escuras.** Feitas para o dia inteiro no caixa, com os números alinhados e o que importa em destaque. Escolha o tema claro, o escuro ou o mesmo do Windows.
+- **Telas limpas, claras ou escuras.** Feitas para o dia inteiro no caixa, com os números alinhados e o que importa em destaque, e usando a tela inteira em qualquer monitor, do notebook ao monitor grande. Escolha o tema claro, o escuro ou o mesmo do Windows.
 - **Com a cara da sua loja.** Ponha a sua logo e ela aparece no menu, no canto do caixa de mercado, na tela de entrada, no cupom e na loja online. Qualquer imagem serve: o sistema tira as bordas vazias e ajusta sem cortar.
 - **Seus dados protegidos.** Ficam no computador da loja, com backup automático, usuário e permissão para cada pessoa e histórico de tudo o que foi feito. Veja [Segurança dos seus dados](#segurança-dos-seus-dados).
 - **Suporte dentro do sistema.** Aperte Ctrl+F1 em qualquer tela, conte o que aconteceu e o chamado vai com o print da tela para a equipe do sistema. A resposta aparece ali mesmo, e o menu avisa quando chegar.
