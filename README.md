@@ -42,6 +42,7 @@ Para quem quer vender rápido, saber quanto ganha e parar de perder dinheiro com
 - **Pix que não dá para fingir.** A venda só fecha quando o Pix cai na conta. O cliente lê o QR na maquininha, num monitor virado para ele ou no papel: ninguém vira a tela do caixa.
 - **Fácil para quem nunca usou sistema.** O próprio sistema encontra a impressora, explica o que fazer e testa antes de salvar.
 - **Tudo fácil de achar.** O menu separa o sistema por área: Vendas, Produtos, Financeiro, Painel. Passe o mouse numa área e as telas dela abrem ao lado, com as partes de cada uma; um clique leva direto. Pelo teclado, Alt+M abre o menu e as setas escolhem.
+- **Um assistente para perguntar.** No topo do menu, "Buscar ou perguntar" (ou Ctrl+Espaço, de qualquer tela): escreva "cadastro de produto" e o Enter leva até a tela; pergunte "como faço uma troca?" e veja o passo a passo com as teclas; pergunte "quanto vendi hoje?" ou "o que está acabando no estoque?" e a resposta vem com os números da loja. Funciona sem internet, e cada pessoa só vê o que o perfil dela permite.
 - **Telas limpas, claras ou escuras.** Feitas para o dia inteiro no caixa, com os números alinhados e o que importa em destaque, e usando a tela inteira em qualquer monitor, do notebook ao monitor grande. Escolha o tema claro, o escuro ou o mesmo do Windows.
 - **Com a cara da sua loja.** Ponha a sua logo e ela aparece no menu, no canto do caixa de mercado, na tela de entrada, no cupom e na loja online. Qualquer imagem serve: o sistema tira as bordas vazias e ajusta sem cortar.
 - **Seus dados protegidos.** Ficam no computador da loja, com backup automático, usuário e permissão para cada pessoa e histórico de tudo o que foi feito. Veja [Segurança dos seus dados](#segurança-dos-seus-dados).
@@ -67,6 +68,19 @@ Leitor de código de barras ou busca por nome, com a lista de produtos aparecend
 Para trocar, Configurações > Caixa e leitor > Tela do caixa. Cada computador da loja usa a que preferir. A de mercado está no topo desta página; a clássica é esta:
 
 ![Caixa clássico, com a foto de cada peça e as teclas ao lado da venda](docs/caixa.png)
+
+### Assistente
+
+Não sabe onde fica uma tela? Escreva no campo **Buscar ou perguntar**, no topo do menu, ou aperte **Ctrl+Espaço** em qualquer tela. Enquanto você digita, aparecem as telas, o passo a passo e as perguntas que combinam: setas e Enter, e você está lá.
+
+- **Ache qualquer tela pelo nome:** "cadastro de produto", "contas a pagar", "fornecedores", "backup". Vale escrito de qualquer jeito, sem acento ou com uma letra trocada.
+- **Veja como fazer:** "como fecho o caixa?", "como dou entrada de mercadoria?", "como imprimo etiquetas?". O passo a passo vem com as teclas e um botão que leva até a tela (Ctrl+Enter).
+- **Pergunte sobre a loja:** "quanto vendi hoje?", "o que mais vendeu esta semana?", "quanto lucrei este mês?", "quanto entrou no Pix?", "o que está acabando?", "quem está com o fiado atrasado?", "tem lote vencido?", "quanto custa o arroz?". Os números são os mesmos do Painel e das outras telas.
+- **Hoje na loja:** ao abrir, as vendas do dia e o que pede atenção (produto para repor, conta vencendo, lote vencido); um clique pergunta.
+
+As respostas são preparadas pela equipe do sistema: funcionam sem internet, sem custo por pergunta, e cada pessoa só vê o que o perfil dela permite.
+
+![Assistente: as vendas de hoje, o passo a passo e Hoje na loja](docs/assistente.png)
 
 ### Vários caixas no mesmo estoque
 
@@ -287,6 +301,7 @@ Pague uma vez só ou por mês. Todos os planos têm 7 dias grátis para testar e
 | Computadores (no mesmo estoque) | 1 | 2 | 3 |
 | Usuários incluídos | 2 | 3 | 5 |
 | Caixa, produtos, vendas, cupom, backup e importação de planilhas | Sim | Sim | Sim |
+| Assistente (achar telas, passo a passo e perguntas sobre a loja) | Sim | Sim | Sim |
 | Trocas, devoluções, vale-troca e condicional | Sim | Sim | Sim |
 | Pix e maquininha integrados | Sim | Sim | Sim |
 | Balança (etiqueta e ligada ao computador) | Sim | Sim | Sim |
@@ -412,8 +427,11 @@ Quem não é administrador pede uma senha provisória ao administrador, em Equip
 **Como chegam as atualizações?**
 Pela internet, sem reinstalar. Quando tiver versão nova, aparece "Atualização pendente" embaixo do menu (e na tela de entrada). Clique e confirme: a instalação aparece na tela, com um backup antes, e o sistema abre de novo sozinho, já atualizado e com você conectado. Se preferir, ela é instalada quando você fechar o sistema.
 
+**O sistema tem inteligência artificial?**
+Não. Tem um assistente com respostas preparadas pela equipe do sistema: ele acha as telas, mostra o passo a passo e responde sobre a loja com os números do próprio sistema. Por isso funciona sem internet e não tem custo por pergunta.
+
 **Como peço ajuda?**
-Aperte Ctrl+F1 em qualquer tela e conte o que aconteceu. O chamado vai com o print da tela, e a resposta aparece no próprio sistema. Veja [Suporte](#suporte).
+Para achar uma tela ou ver como fazer algo, aperte Ctrl+Espaço e pergunte ao assistente. Para falar com uma pessoa, aperte Ctrl+F1 em qualquer tela e conte o que aconteceu. O chamado vai com o print da tela, e a resposta aparece no próprio sistema. Veja [Suporte](#suporte).
 
 **Quantos usuários posso criar?**
 Depende do plano: 2 no Básico, 3 no Médio e 5 no Completo, e dá para contratar usuários extras de caixa ou de gerência. Cada pessoa entra escolhendo o próprio nome, com a senha, o PIN ou o crachá, e tem as permissões do perfil dela; o computador pode continuar conectado até a pessoa sair; descontos acima do limite pedem a autorização de quem pode liberar.
