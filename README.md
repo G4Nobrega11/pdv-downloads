@@ -28,7 +28,8 @@ Para quem quer vender rápido, saber quanto ganha e parar de perder dinheiro com
 | Tipo de negócio | O que o sistema resolve |
 |---|---|
 | **Roupas e calçados** | Grade de tamanho e cor, etiqueta com código de barras para cada peça, troca com vale-troca e condicional (o cliente leva para provar), caixa com a foto de cada peça |
-| **Mercadinho, depósito, padaria, açougue e granel** | Caixa no formato de mercado (a logo da loja no canto, o produto, o total e o troco em letras grandes), venda por peso (kg, g, litro, metro), etiqueta da balança lida no caixa, balança ligada ao computador, preço de atacado automático, leitor de código de barras |
+| **Mercadinho, depósito, padaria, açougue e granel** | Caixa no formato de mercado (a logo da loja no canto, o produto, o total e o troco em letras grandes), venda por peso (kg, g, litro, metro), etiqueta da balança lida no caixa, balança ligada ao computador, preço de atacado automático, leitor de código de barras, validade e lote com o aviso do que vai vencer |
+| **Pet shop, cosméticos, agropecuária e quem vende com validade** | Validade e lote de cada produto, com o lote que vem no XML da nota, o caixa que pergunta o lote quando precisa e o inventário por lote |
 | **Lanchonete e restaurante** | Adicionais (bacon, borda), observação por item, via da cozinha, delivery e retirada |
 | **Comércio em geral** | Tudo o que está acima, ligado ou desligado conforme a sua necessidade |
 
@@ -147,6 +148,10 @@ Nos produtos, a curva ABC (pelo faturamento, pela quantidade ou pelo lucro), o g
 
 Quanto você tem, quanto vale (pelo custo e pelo preço de venda), o que precisa repor e tudo o que entrou e saiu. Entrada de mercadoria bipando as peças da nota, inventário com o leitor (dá para continuar vendendo durante a contagem), perdas e avarias com motivo, movimentações com filtro e planilha para o contador. O custo de cada produto é o custo médio das compras. Cada produto pode ter códigos extras com a quantidade (a caixa com 12, o fardo com 6 ou um segundo código de barras), e a entrada, o inventário e a nota do fornecedor contam certo.
 
+**Validade e lote** (todos os planos; a loja liga em Configurações > Estoque, e cada produto escolhe se controla): a entrada pede a validade de cada lote do jeito que vem na embalagem (10/10/27, ou só o mês e o ano), e a nota do fornecedor já traz o lote do XML. Na venda sai sozinho o lote que vence primeiro, ou o caixa pergunta (para quem precisa saber o lote exato). Em Estoque > Validade, os vencidos, os que vão vencer (o aviso é de 30 dias, e cada produto pode ter o seu) e o estoque sem validade: Delete dá baixa no vencido, A acerta a quantidade, F2 corrige o lote. A venda cancelada e a troca voltam para o lote de onde saíram, o inventário conta por lote e os vencidos aparecem no Painel, no menu e no celular do dono.
+
+![Validade e lote: os lotes vencidos e os que vão vencer](docs/estoque-validade.png)
+
 **Nota do fornecedor pelo XML**: importe o XML da nota (um, vários ou um .zip) e cada item se liga ao produto pelo código de barras ou pelo nome, com o custo real (frete, IPI e ST rateados) e a caixa com 12 virando 12 unidades. O sistema lembra o código de cada fornecedor, confere a nota com o pedido de compra (a mais, a menos, preço acima, fora do pedido), deixa fazer a contagem cega da mercadoria, cria os produtos novos com os dados da nota, sugere o preço que mantém a margem quando o custo sobe e lança as parcelas nas contas a pagar. No fim do mês, os XMLs saem num .zip para o contador.
 
 ![Estoque](docs/estoque.png)
@@ -198,7 +203,8 @@ Em Configurações > Loja, escolha a imagem da logo (ou arraste, ou cole). O ide
 - **Maquininhas de cartão** de qualquer marca: cadastre as taxas e os prazos de cada uma e veja quanto cai na conta e em que dia. No caixa, com mais de uma maquininha, é só escolher em qual o cartão passou; as taxas saem do resultado do mês.
 - **Saldos do caixa, do cofre e do banco.** Cada venda, recebimento, conta paga, sangria e fechamento de caixa entra sozinho na conta certa: você sabe quanto tem em cada lugar, com o extrato de cada um.
 - **Previsão de caixa**: a partir dos saldos, quanto você vai ter em cada dia dos próximos 30, 60 ou 90 dias, com aviso se o saldo for ficar negativo.
-- **Resultado do mês**: quanto o seu negócio lucrou, com as vendas, o custo das mercadorias e as despesas, e os últimos 12 meses para comparar.
+- **Resultado do mês**: quanto o seu negócio lucrou, com as vendas, o imposto, o custo das mercadorias e as despesas, e os últimos 12 meses para comparar.
+- **O imposto no lucro.** Informe o imposto sobre as vendas em Configurações > Fiscal (no Simples, a alíquota que o contador passa; no regime normal, a carga média; no MEI, o valor do DAS): o resultado do mês ganha a linha do imposto, e o lucro do painel, dos relatórios e do painel avançado já sai depois dele.
 
 ![Resultado do mês](docs/financeiro.png)
 
@@ -289,6 +295,7 @@ Pague uma vez só ou por mês. Todos os planos têm 7 dias grátis para testar e
 | Relatórios financeiros e painel avançado (lucro de verdade, simulador de preço, metas) | - | - | Sim |
 | Gestão de estoque | Sim | Sim | Sim |
 | Entrada pela nota do fornecedor (XML) | Sim | Sim | Sim |
+| Validade e lote | Sim | Sim | Sim |
 | Dados fiscais (NCM, CEST, grupos fiscais) | Sim | Sim | Sim |
 | Compras, fornecedores e preço pelo markup | - | Sim | Sim |
 | Clientes | - | Sim | Sim |
@@ -386,6 +393,9 @@ Sim, com o mesmo estoque: o computador principal guarda os dados e os outros vir
 
 **Posso escolher a tela do caixa?**
 Sim. São duas: a de mercado, com a logo da loja no canto e o produto, o total e o troco em letras grandes (a que vem no mercadinho e no depósito), e a clássica, com a foto de cada peça (a que vem em roupas e lanchonete). Troque em Configurações > Caixa e leitor > Tela do caixa, em cada computador.
+
+**Controla validade e lote?**
+Sim, em todos os planos, e só liga quem precisa: em Configurações > Estoque, e depois em cada produto (ou de uma vez por categoria). A entrada pede a validade de cada lote, a venda tira do lote que vence primeiro (ou o caixa pergunta) e Estoque > Validade mostra o que venceu e o que vai vencer.
 
 **Funciona com gaveta de dinheiro e balança?**
 A gaveta que abre pela impressora térmica depende da configuração do driver da impressora. A balança funciona dos dois jeitos: a etiqueta que ela imprime entra bipada no caixa, e a balança ligada ao computador pesa sozinha (Toledo, Filizola, Urano e Elgin).
