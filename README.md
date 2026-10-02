@@ -42,7 +42,7 @@ Para quem quer vender rápido, saber quanto ganha e parar de perder dinheiro com
 - **Pix que não dá para fingir.** A venda só fecha quando o Pix cai na conta. O cliente lê o QR na maquininha, num monitor virado para ele ou no papel: ninguém vira a tela do caixa.
 - **Fácil para quem nunca usou sistema.** O próprio sistema encontra a impressora, explica o que fazer e testa antes de salvar.
 - **Tudo fácil de achar.** O menu separa o sistema por área: Vendas, Produtos, Financeiro, Painel. Passe o mouse numa área e as telas dela abrem ao lado, com as partes de cada uma; um clique leva direto. Pelo teclado, Alt+M abre o menu e as setas escolhem.
-- **Um assistente para perguntar.** No topo do menu, "Buscar ou perguntar" (ou Ctrl+Espaço, de qualquer tela): escreva "cadastro de produto" e o Enter leva até a tela; pergunte "como faço uma troca?" e veja o passo a passo com as teclas; pergunte "quanto vendi hoje?" ou "o que está acabando no estoque?" e a resposta vem com os números da loja. Funciona sem internet, e cada pessoa só vê o que o perfil dela permite.
+- **Um assistente para perguntar.** No topo do menu, "Buscar ou perguntar" (ou Ctrl+Espaço, de qualquer tela): escreva "cadastro de produto" e o Enter leva até a tela; pergunte "como faço uma troca?" e veja o passo a passo com as teclas. No plano Completo, pergunte também "quanto vendi hoje?" ou "o que está acabando no estoque?": a resposta vem com os números da loja e a fonte de cada um. Funciona sem internet, e cada pessoa só vê o que o perfil dela permite.
 - **Telas limpas, claras ou escuras.** Feitas para o dia inteiro no caixa, com os números alinhados e o que importa em destaque, e usando a tela inteira em qualquer monitor, do notebook ao monitor grande. Escolha o tema claro, o escuro ou o mesmo do Windows.
 - **Com a cara da sua loja.** Ponha a sua logo e ela aparece no menu, no canto do caixa de mercado, na tela de entrada, no cupom e na loja online. Qualquer imagem serve: o sistema tira as bordas vazias e ajusta sem cortar.
 - **Seus dados protegidos.** Ficam no computador da loja, com backup automático, usuário e permissão para cada pessoa e histórico de tudo o que foi feito. Veja [Segurança dos seus dados](#segurança-dos-seus-dados).
@@ -73,12 +73,13 @@ Para trocar, Configurações > Caixa e leitor > Tela do caixa. Cada computador d
 
 Não sabe onde fica uma tela? Escreva no campo **Buscar ou perguntar**, no topo do menu, ou aperte **Ctrl+Espaço** em qualquer tela. Enquanto você digita, aparecem as telas, o passo a passo e as perguntas que combinam: setas e Enter, e você está lá.
 
-- **Ache qualquer tela pelo nome:** "cadastro de produto", "contas a pagar", "fornecedores", "backup". Vale escrito de qualquer jeito, sem acento ou com uma letra trocada.
-- **Veja como fazer:** "como fecho o caixa?", "como dou entrada de mercadoria?", "como imprimo etiquetas?". O passo a passo vem com as teclas e um botão que leva até a tela (Ctrl+Enter).
-- **Pergunte sobre a loja:** "quanto vendi hoje?", "o que mais vendeu esta semana?", "quanto lucrei este mês?", "quanto entrou no Pix?", "o que está acabando?", "quem está com o fiado atrasado?", "tem lote vencido?", "quanto custa o arroz?". Os números são os mesmos do Painel e das outras telas.
-- **Hoje na loja:** ao abrir, as vendas do dia e o que pede atenção (produto para repor, conta vencendo, lote vencido); um clique pergunta.
+- **Ache qualquer tela pelo nome** (todos os planos): "cadastro de produto", "contas a pagar", "fornecedores", "backup". Vale escrito de qualquer jeito, sem acento ou com uma letra trocada.
+- **Veja como fazer** (todos os planos): "como fecho o caixa?", "como dou entrada de mercadoria?", "como imprimo etiquetas?". O passo a passo vem com as teclas e um botão que leva até a tela (Ctrl+Enter).
+- **Pergunte sobre a loja** (plano Completo): "quanto vendi hoje?", "o que mais vendeu esta semana?", "quanto lucrei este mês?", "quanto entrou no Pix?", "o que está acabando?", "quem está com o fiado atrasado?", "tem lote vencido?", "quanto custa o arroz?". Os números são os mesmos do Painel e das outras telas.
+- **Hoje na loja** (plano Completo): ao abrir, as vendas do dia e o que pede atenção (produto para repor, conta vencendo, lote vencido); um clique pergunta.
+- **Com a fonte de cada número:** embaixo de toda resposta, de onde veio (a tela, o período e o que entra na conta), para não ficar dúvida. Pergunte "de onde veio isso?" e ele explica.
 
-As respostas são preparadas pela equipe do sistema: funcionam sem internet, sem custo por pergunta, e cada pessoa só vê o que o perfil dela permite.
+A resposta aparece como numa conversa, depois de o assistente "escrever", e cada número vem com a fonte. Funciona sem internet, sem custo por pergunta, e cada pessoa só vê o que o perfil dela permite.
 
 ![Assistente: as vendas de hoje, o passo a passo e Hoje na loja](docs/assistente.png)
 
@@ -301,7 +302,8 @@ Pague uma vez só ou por mês. Todos os planos têm 7 dias grátis para testar e
 | Computadores (no mesmo estoque) | 1 | 2 | 3 |
 | Usuários incluídos | 2 | 3 | 5 |
 | Caixa, produtos, vendas, cupom, backup e importação de planilhas | Sim | Sim | Sim |
-| Assistente (achar telas, passo a passo e perguntas sobre a loja) | Sim | Sim | Sim |
+| Assistente: achar as telas e o passo a passo | Sim | Sim | Sim |
+| Assistente: perguntas sobre a loja (vendas, estoque e financeiro, com a fonte de cada número) | - | - | Sim |
 | Trocas, devoluções, vale-troca e condicional | Sim | Sim | Sim |
 | Pix e maquininha integrados | Sim | Sim | Sim |
 | Balança (etiqueta e ligada ao computador) | Sim | Sim | Sim |
