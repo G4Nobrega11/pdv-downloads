@@ -90,7 +90,8 @@ Nos planos Médio (2 computadores) e Completo (3).
 - **Um estoque só.** O computador principal guarda os dados da loja e os outros viram caixas dele, pela rede da loja (cabo ou Wi-Fi), sem precisar de internet. Vendeu em um caixa, o estoque baixa para todos.
 - **Cada caixa com o que é dele.** O caixa aberto, a gaveta, a impressora, a balança e a maquininha são de cada computador. No Financeiro, cada gaveta aparece com o nome do computador.
 - **Ligar um caixa leva um minuto.** No principal, Configurações > Computadores da loja mostra um código. No outro computador, digite o código e confira o número que aparece igual nas duas telas.
-- **Sem o principal, o caixa espera e volta sozinho.** Se o principal desligar ou a rede cair, o caixa avisa, a venda em andamento continua na tela e tudo volta sozinho quando o principal volta.
+- **Sem o principal, o caixa continua vendendo.** Se o principal desligar ou a rede cair, o caixa segue vendendo com dinheiro, cartão e Pix, abre e fecha o caixa e faz sangria. Um aviso no topo mostra quantas vendas estão guardadas no caixa, e elas vão sozinhas para o principal quando ele volta, com a hora e o preço de quando foram feitas.
+- **O cupom acha a venda depois.** A venda feita sem o principal sai no cupom com um número do caixa ("2-15"), que acha a venda em Vendas e na troca depois que ela chega ao principal.
 
 ![Computadores da loja](docs/computadores.png)
 
