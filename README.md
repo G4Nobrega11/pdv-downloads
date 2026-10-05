@@ -259,10 +259,13 @@ Produtos (com grade de tamanho e cor e venda por peso), fornecedores, clientes e
 - **As vendas caem no sistema.** Cada venda paga vira um pedido em Pedidos, para separar e embalar, e baixa o estoque da loja. Venda cancelada no Mercado Livre cancela o pedido e devolve o estoque.
 - **Um estoque só para o balcão e os anúncios.** Vendeu no balcão, o anúncio atualiza em segundos. Antes de ligar, o sistema mostra o que muda em cada anúncio, e a margem de segurança guarda unidades para não vender a mesma peça duas vezes.
 - **Anúncios ligados aos produtos sem digitar tudo de novo.** Quando o SKU do anúncio é o código de barras ou o código do produto, o sistema liga sozinho. Para o resto, ele sugere o produto pelo nome, pela cor e pelo tamanho, e você confirma.
+- **Já vende no Mercado Livre? Os produtos vêm de lá.** Um clique (ou Ctrl+I) cadastra na loja os anúncios que ainda não têm produto, com o título, o preço, o estoque, o código de barras, as cores e os tamanhos e a foto do anúncio, e cada um já fica ligado. Você confere tudo antes de importar, e o produto que já existe na loja fica como está.
 - **O lucro de verdade de cada venda.** As vendas do Mercado Livre entram no painel, nos relatórios e no resultado do mês com a tarifa e o frete que a loja paga.
 - **Tudo na página Marketplaces:** a conta, os anúncios, o estoque e as vendas. Vendas do Full ficam de fora: o Mercado Livre separa e envia do depósito dele.
 
 ![Mercado Livre na página Marketplaces](docs/marketplaces.png)
+
+![Os anúncios do Mercado Livre virando produtos da loja, conferidos antes de importar](docs/marketplaces-trazer.png)
 
 ---
 
@@ -422,7 +425,7 @@ A gaveta que abre pela impressora térmica depende da configuração do driver d
 Sim. Nos planos Médio e Completo, cada relatório do painel sai impresso, em PDF e em Excel (vendas, estoque e, no Completo, o resultado do mês, as contas e o fluxo de caixa). Os XMLs das notas de compra do mês saem num .zip, em Estoque > Notas de compra.
 
 **Tenho os produtos em outro sistema. Preciso cadastrar tudo de novo?**
-Não. Exporte uma planilha do sistema antigo (Excel ou CSV) e importe em Produtos > Importar planilha. Dá para trazer também os fornecedores, os clientes e o histórico de vendas. A planilha de produtos que o Bling exporta o sistema reconhece sozinho, com as variações de tamanho e cor.
+Não. Exporte uma planilha do sistema antigo (Excel ou CSV) e importe em Produtos > Importar planilha. Dá para trazer também os fornecedores, os clientes e o histórico de vendas. A planilha de produtos que o Bling exporta o sistema reconhece sozinho, com as variações de tamanho e cor. E se você já vende no Mercado Livre, os anúncios viram produtos da loja direto da conta conectada, com o preço, o estoque, o código e a foto (plano Completo).
 
 **Esqueci a senha. E agora?**
 Quem não é administrador pede uma senha provisória ao administrador, em Equipe. O administrador clica em "Sou o administrador e esqueci a senha", na tela de entrada, e cria uma senha nova com a chave de ativação da compra. Perdeu a chave? O vendedor manda de novo.
