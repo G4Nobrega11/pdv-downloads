@@ -260,12 +260,16 @@ Produtos (com grade de tamanho e cor e venda por peso), fornecedores, clientes e
 - **Um estoque só para o balcão e os anúncios.** Vendeu no balcão, o anúncio atualiza em segundos. Antes de ligar, o sistema mostra o que muda em cada anúncio, e a margem de segurança guarda unidades para não vender a mesma peça duas vezes.
 - **Anúncios ligados aos produtos sem digitar tudo de novo.** Quando o SKU do anúncio é o código de barras ou o código do produto, o sistema liga sozinho. Para o resto, ele sugere o produto pelo nome, pela cor e pelo tamanho, e você confirma.
 - **Já vende no Mercado Livre? Os produtos vêm de lá.** Um clique (ou Ctrl+I) cadastra na loja os anúncios que ainda não têm produto, com o título, o preço, o estoque, o código de barras, as cores e os tamanhos e a foto do anúncio, e cada um já fica ligado. Você confere tudo antes de importar, e o produto que já existe na loja fica como está.
+- **O preço também vai sozinho.** O preço da loja, com a porcentagem que você escolhe para cobrir a tarifa e o frete (ou um preço próprio por produto), vai para os anúncios em segundos. Antes de ligar, o sistema mostra o que muda, e o anúncio em promoção ou com o preço automático do Mercado Livre fica como está.
+- **Anuncie sem sair do sistema.** No cadastro do produto, "Anunciar no Mercado Livre" sugere a categoria, pede só os campos que ela exige, mostra a tarifa do clássico e do premium e publica com a foto, o preço e o estoque da loja, já ligado ao produto.
 - **O lucro de verdade de cada venda.** As vendas do Mercado Livre entram no painel, nos relatórios e no resultado do mês com a tarifa e o frete que a loja paga.
 - **Tudo na página Marketplaces:** a conta, os anúncios, o estoque e as vendas. Vendas do Full ficam de fora: o Mercado Livre separa e envia do depósito dele.
 
 ![Mercado Livre na página Marketplaces](docs/marketplaces.png)
 
 ![Os anúncios do Mercado Livre virando produtos da loja, conferidos antes de importar](docs/marketplaces-trazer.png)
+
+![O anúncio novo saindo do cadastro do produto, com a categoria sugerida, a ficha técnica e a tarifa](docs/marketplaces-anunciar.png)
 
 ---
 
@@ -326,7 +330,7 @@ Pague uma vez só ou por mês. Todos os planos têm 7 dias grátis para testar e
 | Delivery e pedidos | - | - | Sim |
 | Loja online | - | - | Sim |
 | Acesso de qualquer lugar (link e PIN) | - | - | Sim |
-| Pedidos e estoque do Mercado Livre | - | - | Sim |
+| Pedidos, estoque, preço e anúncios do Mercado Livre | - | - | Sim |
 
 **Usuário extra:** R$ 9,90 por mês para caixa ou vendedor e R$ 14,90 para gerente ou financeiro. No pagamento único, R$ 24,90 e R$ 39,90.
 
