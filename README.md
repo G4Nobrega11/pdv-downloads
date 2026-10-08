@@ -3,7 +3,7 @@
 <h3 align="center">Venda rápido, controle o estoque e saiba quanto o seu negócio lucra.</h3>
 
 <p align="center">
-  Caixa com Pix e maquininha integrados, vários caixas no mesmo estoque, trocas e condicional, estoque, compras, clientes, financeiro, relatórios, etiquetas, delivery, loja online e Mercado Livre em um só sistema.<br>
+  Caixa com Pix e maquininha integrados, vários caixas no mesmo estoque, várias lojas numa rede, trocas e condicional, estoque, compras, clientes, financeiro, relatórios, etiquetas, delivery, loja online e Mercado Livre em um só sistema.<br>
   Instala sozinho em um minuto e continua vendendo mesmo <b>sem internet</b>.
 </p>
 
@@ -31,12 +31,14 @@ Para quem quer vender rápido, saber quanto ganha e parar de perder dinheiro com
 | **Mercadinho, depósito, padaria, açougue e granel** | Caixa no formato de mercado (a logo da loja no canto, o produto, o total e o troco em letras grandes), venda por peso (kg, g, litro, metro), etiqueta da balança lida no caixa, balança ligada ao computador, preço de atacado automático, leitor de código de barras, validade e lote com o aviso do que vai vencer |
 | **Pet shop, cosméticos, agropecuária e quem vende com validade** | Validade e lote de cada produto, com o lote que vem no XML da nota, o caixa que pergunta o lote quando precisa e o inventário por lote |
 | **Lanchonete e restaurante** | Adicionais (bacon, borda), observação por item, via da cozinha, delivery e retirada |
+| **Quem tem mais de uma loja** | O cadastro feito na matriz chegando sozinho nas filiais, o estoque de cada loja à vista no caixa, a transferência de mercadoria com conferência na chegada e as vendas de todas as lojas no Painel |
 | **Comércio em geral** | Tudo o que está acima, ligado ou desligado conforme a sua necessidade |
 
 ## Por que este sistema
 
 - **Não para quando a internet cai.** Tudo fica salvo no computador da loja. A internet só é usada para ativar e para os módulos online.
 - **Vários caixas, um estoque só.** Os computadores da loja vendem do mesmo estoque, pela rede da loja e sem precisar de internet, cada caixa com a sua gaveta, a sua impressora e a sua maquininha.
+- **Várias lojas, um cadastro só.** Com mais de uma loja, a matriz cadastra os produtos e eles chegam sozinhos nas filiais. Cada loja vê o estoque das outras, manda mercadoria para outra loja com conferência na chegada, e a matriz acompanha as vendas de todas no Painel e no celular. Cada loja continua vendendo sem internet. Veja [Várias lojas](#várias-lojas-filiais).
 - **Rápido de verdade.** Venda inteira pelo teclado e pelo leitor: bipou, apertou F9, a tecla da forma de pagamento (F2 dinheiro, F3 PIX, F5 crédito) e Enter. A venda termina na hora, sem esperar a impressora, e todas as teclas ficam à vista no caixa. Aperte F1 em qualquer tela para ver a lista: nenhum atalho passa de duas teclas, e quem tem dificuldade de apertar duas juntas encontra ali como apertar uma de cada vez.
 - **Caixa do jeito da sua loja.** Duas telas de caixa, e você escolhe. A de mercado tem a logo da loja grande no canto e o produto que passou, o total, o recebido e o troco em letras grandes, para ler de longe, usando a tela inteira: é a que vem no mercadinho e no depósito. A clássica mostra a foto de cada peça e as teclas em botões ao lado da venda: é a que vem em roupas e lanchonete. Para trocar, Configurações > Caixa e leitor, em cada computador.
 - **Pix que não dá para fingir.** A venda só fecha quando o Pix cai na conta. O cliente lê o QR na maquininha, num monitor virado para ele ou no papel: ninguém vira a tela do caixa.
@@ -95,6 +97,23 @@ Nos planos Médio (2 computadores) e Completo (3).
 
 ![Computadores da loja](docs/computadores.png)
 
+### Várias lojas (filiais)
+
+Para quem tem mais de uma loja. Cada loja tem o próprio computador e a própria chave, no plano que quiser, e continua vendendo sem internet; o vendedor liga as lojas numa rede, com uma matriz e as filiais. O que é entre as lojas passa pela internet quando ela está lá, de 5 em 5 minutos.
+
+- **Um cadastro só.** A matriz cadastra os produtos (código, categoria, grade e preço) e eles chegam sozinhos nas filiais, já ligados ao que a filial tinha pelo código de barras. A filial pode ter preço próprio num produto, que fica mesmo quando a matriz muda o preço, e cada loja põe as fotos dela.
+- **O estoque das outras lojas à vista.** No cadastro do produto aparece quanto cada loja tem. No caixa, o produto que acabou aqui mostra onde tem: "tem 3 na loja Centro".
+- **Transferência com conferência.** Em Estoque > Transferências, bipe o que vai para a outra loja e aperte F9: o estoque sai na hora e a mercadoria fica em trânsito, com o comprovante para ir junto. Na chegada, a outra loja bipa o que chegou (ou confere tudo de uma vez) e aperta F9: entra no estoque, com o lote e a validade, e o que faltou ou sobrou fica registrado nas duas lojas. Mandou por engano? Cancele antes de chegar e o estoque volta.
+- **Todas as lojas no Painel** (plano Completo, na matriz): escolha esta loja, todas juntas ou uma delas, com as vendas, o ticket, os mais vendidos, as formas de pagamento, o estoque de cada uma e a hora em que os números chegaram. No celular do dono, as outras lojas de hoje logo abaixo dos números do dia.
+- **Cada loja com o que é dela.** Clientes, fiado, crediário, caixa e equipe ficam em cada loja. Mercado Livre, Bling e loja online ficam com a matriz.
+- **A rede à vista.** Em Configurações > Rede de lojas, cada loja vê as outras e quando cada uma deu notícias pela última vez; a matriz vê o que ainda vai para as filiais, e a filial, o que chegou. F5 confere na hora.
+
+O cadastro da matriz, o estoque das outras lojas e a transferência vêm em todos os planos; o Painel e o celular com as lojas juntas, no Completo.
+
+![Painel da matriz com todas as lojas, o estoque e a hora dos números de cada uma](docs/filiais-painel.png)
+
+![Transferência que chegou, conferida pelo leitor](docs/filiais-transferencia.png)
+
 ### Pix e maquininha integrados
 
 Em todos os planos.
@@ -132,7 +151,7 @@ Em todos os planos.
 
 No plano Básico, o painel mostra o essencial: vendido hoje e ontem, ticket médio, os últimos 7 dias, os mais vendidos da semana e o estoque em alerta. Nos planos Médio e Completo, o painel completo:
 
-Faturamento, número de vendas, ticket médio, lucro bruto e itens vendidos, sempre comparados com o período anterior. Vendas por dia e por hora, formas de pagamento, produtos e categorias que mais vendem, vendas por operador e o **mapa de dias e horários de movimento**, para escalar a equipe e programar a reposição.
+Faturamento, número de vendas, ticket médio, lucro bruto e itens vendidos, sempre comparados com o período anterior. Vendas por dia e por hora, formas de pagamento, produtos e categorias que mais vendem, vendas por operador e o **mapa de dias e horários de movimento**, para escalar a equipe e programar a reposição. Com várias lojas (plano Completo, na matriz), o mesmo painel mostra esta loja, todas juntas ou uma delas.
 
 ![Painel de vendas](docs/painel.png)
 
@@ -162,7 +181,7 @@ Nos produtos, a curva ABC (pelo faturamento, pela quantidade ou pelo lucro), o g
 
 ### Estoque
 
-Quanto você tem, quanto vale (pelo custo e pelo preço de venda), o que precisa repor e tudo o que entrou e saiu. Entrada de mercadoria bipando as peças da nota, inventário com o leitor (dá para continuar vendendo durante a contagem), perdas e avarias com motivo, movimentações com filtro e planilha para o contador. O custo de cada produto é o custo médio das compras. Cada produto pode ter códigos extras com a quantidade (a caixa com 12, o fardo com 6 ou um segundo código de barras), e a entrada, o inventário e a nota do fornecedor contam certo.
+Quanto você tem, quanto vale (pelo custo e pelo preço de venda), o que precisa repor e tudo o que entrou e saiu. Entrada de mercadoria bipando as peças da nota, inventário com o leitor (dá para continuar vendendo durante a contagem), perdas e avarias com motivo, movimentações com filtro e planilha para o contador. O custo de cada produto é o custo médio das compras. Cada produto pode ter códigos extras com a quantidade (a caixa com 12, o fardo com 6 ou um segundo código de barras), e a entrada, o inventário e a nota do fornecedor contam certo. Com mais de uma loja, o estoque de cada uma aparece no produto e a mercadoria vai de uma loja para outra em Estoque > Transferências, conferida na chegada (veja [Várias lojas](#várias-lojas-filiais)).
 
 **Validade e lote** (todos os planos; a loja liga em Configurações > Estoque, e cada produto escolhe se controla): a entrada pede a validade de cada lote do jeito que vem na embalagem (10/10/27, ou só o mês e o ano), e a nota do fornecedor já traz o lote do XML. Na venda sai sozinho o lote que vence primeiro, ou o caixa pergunta (para quem precisa saber o lote exato). Em Estoque > Validade, os vencidos, os que vão vencer (o aviso é de 30 dias, e cada produto pode ter o seu) e o estoque sem validade: Delete dá baixa no vencido, A acerta a quantidade, F2 corrige o lote. A venda cancelada e a troca voltam para o lote de onde saíram, o inventário conta por lote e os vencidos aparecem no Painel, no menu e no celular do dono.
 
@@ -244,7 +263,7 @@ Produtos (com grade de tamanho e cor e venda por peso), fornecedores, clientes e
 
 - **Pedidos para entrega e retirada** feitos no caixa (F10), com acompanhamento, entregador e via da cozinha.
 - **Loja online**: uma página com os seus produtos, fotos e preços. O cliente pede pelo celular e o pedido cai direto em Pedidos, com aviso sonoro.
-- **Celular do dono**: vendas do dia, caixa, pedidos e estoque baixo no celular, pelo Wi-Fi da loja, ou de qualquer lugar com link e PIN. No Wi-Fi, o celular é pareado uma vez pelo código que aparece no computador e depois entra sozinho, sem digitar senha.
+- **Celular do dono**: vendas do dia, caixa, pedidos e estoque baixo no celular, pelo Wi-Fi da loja, ou de qualquer lugar com link e PIN. Com várias lojas (plano Completo), as outras lojas de hoje aparecem logo abaixo dos números do dia. No Wi-Fi, o celular é pareado uma vez pelo código que aparece no computador e depois entra sozinho, sem digitar senha.
 
 ![Pedidos](docs/pedidos.png)
 
@@ -289,6 +308,7 @@ São os números do seu negócio: vendas, clientes, custos e contas. O sistema f
 - **Troca de operador sem fechar o caixa.** A tela bloqueia com Ctrl+B ou sozinha, depois do tempo que você escolher, e volta com o PIN ou o crachá.
 - **Celular do dono sem expor a senha.** Pelo Wi-Fi da loja, o celular é pareado pelo código na tela do computador e a senha nunca passa pela rede; o painel só abre na rede da loja e você desconecta cada celular quando quiser. De qualquer lugar, o acesso é por link privado e PIN, com conexão cifrada, e bloqueia depois de 5 PINs errados.
 - **Vários caixas com conversa cifrada.** Os computadores da loja conversam pela rede da loja com conexão cifrada. Só entra o computador aceito no principal, com um número conferido nas duas telas, e o principal desliga um caixa na hora.
+- **Várias lojas sem expor a chave.** A chave de ativação de uma loja nunca vai para as outras: cada loja é conhecida na rede só pelo número dela. Cada loja só vê a própria rede, e tudo o que chega das outras lojas é conferido antes de entrar no sistema.
 - **Atualização só da fonte oficial.** O sistema só instala versões publicadas pelo fornecedor do sistema, e faz um backup antes.
 - **Licença com assinatura digital.** Não dá para falsificar nem copiar para outro computador.
 - **Pagamento integrado com trava.** As senhas e os certificados da maquininha e do banco ficam cifrados no computador; cada Pix ou cartão aprovado vale para uma venda só; e cartão ou Pix lançado à mão, com a integração ligada, só passa com a autorização de quem pode liberar.
@@ -308,6 +328,8 @@ Pague uma vez só ou por mês. Todos os planos têm 7 dias grátis para testar e
 | **Pagamento único** | **R$ 49,90** | **R$ 69,90** | **R$ 99,90** |
 | **Ou por mês** | R$ 19,90 | R$ 29,90 | R$ 49,90 |
 | Computadores (no mesmo estoque) | 1 | 2 | 3 |
+| Várias lojas: o cadastro da matriz nas filiais, o estoque das outras lojas e a transferência | Sim | Sim | Sim |
+| Várias lojas: o Painel e o celular do dono com as lojas juntas | - | - | Sim |
 | Usuários incluídos | 2 | 3 | 5 |
 | Caixa, produtos, vendas, cupom, backup e importação de planilhas | Sim | Sim | Sim |
 | Assistente: achar as telas e o passo a passo | Sim | Sim | Sim |
@@ -405,7 +427,7 @@ Não precisa instalar nada: o leitor USB funciona como um teclado. Conecte, abra
 ## Perguntas frequentes
 
 **Precisa de internet?**
-Não para vender. A internet é usada para ativar, para receber atualizações, para falar com o suporte e para os módulos online (loja online, Mercado Livre e acesso de qualquer lugar).
+Não para vender. A internet é usada para ativar, para receber atualizações, para falar com o suporte e para os módulos online (loja online, Mercado Livre, várias lojas numa rede e acesso de qualquer lugar). Sem ela, a venda continua, e o que é online vai quando a conexão voltar.
 
 **Emite nota fiscal (NFC-e, SAT)?**
 Ainda não. É um sistema de controle da loja (caixa, estoque, compras e financeiro). O cadastro fiscal (dados da empresa, NCM, CEST, origem e grupos fiscais) já fica pronto no sistema, e as compras entram pelo XML da nota do fornecedor. Enquanto isso, use junto com o emissor indicado pela sua contabilidade.
@@ -415,6 +437,9 @@ No computador da loja, com backup automático todo dia. Você pode escolher uma 
 
 **Posso usar em mais de um computador?**
 Sim, com o mesmo estoque: o computador principal guarda os dados e os outros viram caixas dele pela rede da loja, sem precisar de internet. Quantos, o plano diz: 1 no Básico, 2 no Médio e 3 no Completo.
+
+**Tenho mais de uma loja. Dá para usar?**
+Sim. Cada loja tem o próprio computador e a própria chave, e o vendedor liga as lojas numa rede: a matriz cadastra os produtos e eles chegam nas filiais, cada loja vê o estoque das outras e manda mercadoria com conferência na chegada, e cada uma continua vendendo sem internet. No plano Completo, a matriz vê as vendas de todas as lojas juntas no Painel e no celular. Veja [Várias lojas](#várias-lojas-filiais).
 
 **Posso escolher a tela do caixa?**
 Sim. São duas: a de mercado, com a logo da loja no canto e o produto, o total e o troco em letras grandes (a que vem no mercadinho e no depósito), e a clássica, com a foto de cada peça (a que vem em roupas e lanchonete). Troque em Configurações > Caixa e leitor > Tela do caixa, em cada computador.
