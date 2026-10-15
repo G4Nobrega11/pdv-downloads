@@ -48,7 +48,7 @@ Para quem quer vender rápido, saber quanto ganha e parar de perder dinheiro com
 - **Telas limpas, claras ou escuras.** Feitas para o dia inteiro no caixa, com os números alinhados e o que importa em destaque, e usando a tela inteira em qualquer monitor, do notebook ao monitor grande. Escolha o tema claro, o escuro ou o mesmo do Windows.
 - **Com a cara da sua loja.** Ponha a sua logo e ela aparece no menu, no canto do caixa de mercado, na tela de entrada, no cupom e na loja online. Qualquer imagem serve: o sistema tira as bordas vazias e ajusta sem cortar.
 - **Seus dados protegidos.** Ficam no computador da loja, com backup automático, usuário e permissão para cada pessoa e histórico de tudo o que foi feito. Veja [Segurança dos seus dados](#segurança-dos-seus-dados).
-- **Suporte dentro do sistema.** Aperte Ctrl+F1 em qualquer tela, conte o que aconteceu e o chamado vai com o print da tela para a equipe do sistema. A resposta aparece ali mesmo, e o menu avisa quando chegar.
+- **Suporte dentro do sistema.** Aperte Ctrl+F1 em qualquer tela (ou clique em Suporte, no menu), conte o que aconteceu e o chamado vai com o print da tela para a equipe do sistema. A resposta aparece ali mesmo, e o menu avisa quando chegar.
 - **Atualiza com um clique.** As melhorias chegam pela internet e aparecem como "Atualização pendente": clique e confirme. Uma barra mostra o andamento (quanto já baixou, a velocidade e quanto falta), o backup é feito antes, a instalação aparece na tela e em cerca de 30 segundos o sistema abre de novo, já atualizado e com você conectado. Ao abrir a versão nova, ele mostra o que mudou.
 - **Traga o que você já tem.** Importe seus produtos, fornecedores, clientes e até o histórico de vendas de uma planilha do Excel ou de outro sistema.
 
@@ -321,7 +321,7 @@ São os números do seu negócio: vendas, clientes, custos e contas. O sistema f
 
 ## Planos
 
-Pague uma vez só ou por mês. Todos os planos têm 7 dias grátis para testar e recebem as atualizações sem reinstalar nada. Para mudar de plano, peça ao vendedor: os módulos novos aparecem no sistema sem reinstalar.
+Pague uma vez só ou por mês. Todos os planos têm 7 dias grátis para testar e recebem as atualizações sem reinstalar nada. Para mudar de plano, clique em "Ver outros planos", no pé do menu do sistema (ou Configurações > Licença): os planos aparecem lado a lado, o pedido vai pelo suporte e os módulos novos aparecem sem reinstalar.
 
 | | Básico | Médio | Completo |
 |---|---|---|---|
@@ -466,7 +466,7 @@ Pela internet, sem reinstalar. Quando tiver versão nova, aparece "Atualização
 Não. Tem um assistente com respostas preparadas pela equipe do sistema: ele acha as telas, mostra o passo a passo e responde sobre a loja com os números do próprio sistema. Por isso funciona sem internet e não tem custo por pergunta.
 
 **Como peço ajuda?**
-Para achar uma tela ou ver como fazer algo, aperte Ctrl+Espaço e pergunte ao assistente. Para falar com uma pessoa, aperte Ctrl+F1 em qualquer tela e conte o que aconteceu. O chamado vai com o print da tela, e a resposta aparece no próprio sistema. Veja [Suporte](#suporte).
+Para achar uma tela ou ver como fazer algo, aperte Ctrl+Espaço e pergunte ao assistente. Para falar com uma pessoa, aperte Ctrl+F1 em qualquer tela (ou clique em Suporte, no menu) e conte o que aconteceu. O chamado vai com o print da tela, e a resposta aparece no próprio sistema. Veja [Suporte](#suporte).
 
 **Quantos usuários posso criar?**
 Depende do plano: 2 no Básico, 3 no Médio e 5 no Completo, e dá para contratar usuários extras de caixa ou de gerência. Cada pessoa entra escolhendo o próprio nome, com a senha, o PIN ou o crachá, e tem as permissões do perfil dela; o computador pode continuar conectado até a pessoa sair; descontos acima do limite pedem a autorização de quem pode liberar.
@@ -475,7 +475,7 @@ Depende do plano: 2 no Básico, 3 no Médio e 5 no Completo, e dá para contrata
 
 ## Suporte
 
-O suporte fica dentro do sistema. Aperte **Ctrl+F1** em qualquer tela (ou clique em **Suporte**, no pé do menu), escreva o assunto e conte o que aconteceu. O chamado vai com o print da tela de onde você abriu e com o diagnóstico do sistema (a versão, o Windows e os erros recentes; nada de senhas nem dados de clientes), direto para a equipe do sistema.
+O suporte fica dentro do sistema. Aperte **Ctrl+F1** em qualquer tela (ou clique em **Suporte**, no menu, logo abaixo de Configurações), escreva o assunto e conte o que aconteceu. O chamado vai com o print da tela de onde você abriu e com o diagnóstico do sistema (a versão, o Windows e os erros recentes; nada de senhas nem dados de clientes), direto para a equipe do sistema.
 
 ![Novo chamado, com o print da tela junto](docs/suporte-novo.png)
 
