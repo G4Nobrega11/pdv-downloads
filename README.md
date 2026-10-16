@@ -343,7 +343,7 @@ Pague uma vez só ou por mês. Todos os planos têm 7 dias grátis para testar e
 | Gestão de estoque | Sim | Sim | Sim |
 | Entrada pela nota do fornecedor (XML) | Sim | Sim | Sim |
 | Validade e lote | Sim | Sim | Sim |
-| Dados fiscais (NCM, CEST, grupos fiscais) | Sim | Sim | Sim |
+| Dados fiscais (NCM, CEST, grupos fiscais, IBS e CBS) | Sim | Sim | Sim |
 | Compras, fornecedores e preço pelo markup | - | Sim | Sim |
 | Clientes | - | Sim | Sim |
 | Etiquetas com código de barras | - | Sim | Sim |
@@ -430,7 +430,7 @@ Não precisa instalar nada: o leitor USB funciona como um teclado. Conecte, abra
 Não para vender. A internet é usada para ativar, para receber atualizações, para falar com o suporte e para os módulos online (loja online, Mercado Livre, várias lojas numa rede e acesso de qualquer lugar). Sem ela, a venda continua, e o que é online vai quando a conexão voltar.
 
 **Emite nota fiscal (NFC-e, SAT)?**
-Ainda não. É um sistema de controle da loja (caixa, estoque, compras e financeiro). O cadastro fiscal (dados da empresa, NCM, CEST, origem e grupos fiscais) já fica pronto no sistema, e as compras entram pelo XML da nota do fornecedor. Enquanto isso, use junto com o emissor indicado pela sua contabilidade.
+Ainda não. É um sistema de controle da loja (caixa, estoque, compras e financeiro). O cadastro fiscal (dados da empresa, NCM, CEST, origem, grupos fiscais e a classificação do IBS e da CBS da reforma tributária, pela tabela oficial) já fica pronto no sistema, e as compras entram pelo XML da nota do fornecedor. Enquanto isso, use junto com o emissor indicado pela sua contabilidade.
 
 **Onde ficam os meus dados?**
 No computador da loja, com backup automático todo dia. Você pode escolher uma pasta extra (pendrive, Google Drive, OneDrive) para ter uma cópia fora do computador.
