@@ -30,7 +30,7 @@ Para quem quer vender rápido, saber quanto ganha e parar de perder dinheiro com
 | **Roupas e calçados** | Grade de tamanho e cor, etiqueta com código de barras para cada peça, troca com vale-troca e condicional (o cliente leva para provar), caixa com a foto de cada peça |
 | **Mercadinho, depósito, padaria, açougue e granel** | Caixa no formato de mercado (a logo da loja no canto, o produto, o total e o troco em letras grandes), venda por peso (kg, g, litro, metro), etiqueta da balança lida no caixa, balança ligada ao computador, preço de atacado automático, leitor de código de barras, validade e lote com o aviso do que vai vencer |
 | **Pet shop, cosméticos, agropecuária e quem vende com validade** | Validade e lote de cada produto, com o lote que vem no XML da nota, o caixa que pergunta o lote quando precisa e o inventário por lote |
-| **Lanchonete e restaurante** | Adicionais (bacon, borda), observação por item, via da cozinha, delivery e retirada |
+| **Lanchonete e restaurante** | Mapa de mesas, o garçom pedindo pelo celular no Wi-Fi da loja (sem internet e sem instalar nada), a cozinha e o bar recebendo cada um só os itens deles, taxa de serviço e conta dividida, adicionais (bacon, borda), observação por item, delivery e retirada |
 | **Quem tem mais de uma loja** | O cadastro feito na matriz chegando sozinho nas filiais, o estoque de cada loja à vista no caixa, a transferência de mercadoria com conferência na chegada e as vendas de todas as lojas no Painel |
 | **Comércio em geral** | Tudo o que está acima, ligado ou desligado conforme a sua necessidade |
 
@@ -39,6 +39,7 @@ Para quem quer vender rápido, saber quanto ganha e parar de perder dinheiro com
 - **Não para quando a internet cai.** Tudo fica salvo no computador da loja. A internet só é usada para ativar e para os módulos online.
 - **Vários caixas, um estoque só.** Os computadores da loja vendem do mesmo estoque, pela rede da loja e sem precisar de internet, cada caixa com a sua gaveta, a sua impressora e a sua maquininha.
 - **Várias lojas, um cadastro só.** Com mais de uma loja, a matriz cadastra os produtos e eles chegam sozinhos nas filiais. Cada loja vê o estoque das outras, manda mercadoria para outra loja com conferência na chegada, e a matriz acompanha as vendas de todas no Painel e no celular. Cada loja continua vendendo sem internet. Veja [Várias lojas](#várias-lojas-filiais).
+- **Restaurante que não para.** O garçom lança pelo celular e a cozinha recebe na hora, pelo Wi-Fi da loja, direto no computador: sem internet, sem servidor na nuvem e sem instalar aplicativo. O pedido mandado duas vezes (o sinal que falhou, o dedo que tocou duas vezes) nunca sai em dobro. Veja [Mesas e garçom](#mesas-e-garçom).
 - **Rápido de verdade.** Venda inteira pelo teclado e pelo leitor: bipou, apertou F9, a tecla da forma de pagamento (F2 dinheiro, F3 PIX, F5 crédito) e Enter. A venda termina na hora, sem esperar a impressora, e todas as teclas ficam à vista no caixa. Aperte F1 em qualquer tela para ver a lista: nenhum atalho passa de duas teclas, e quem tem dificuldade de apertar duas juntas encontra ali como apertar uma de cada vez.
 - **Caixa do jeito da sua loja.** Duas telas de caixa, e você escolhe. A de mercado tem a logo da loja grande no canto e o produto que passou, o total, o recebido e o troco em letras grandes, para ler de longe, usando a tela inteira: é a que vem no mercadinho e no depósito. A clássica mostra a foto de cada peça e as teclas em botões ao lado da venda: é a que vem em roupas e lanchonete. Para trocar, Configurações > Caixa e leitor, em cada computador.
 - **Pix que não dá para fingir.** A venda só fecha quando o Pix cai na conta. O cliente lê o QR na maquininha, num monitor virado para ele ou no papel: ninguém vira a tela do caixa.
@@ -273,6 +274,24 @@ Produtos (com grade de tamanho e cor e venda por peso), fornecedores, clientes e
   <img src="docs/dono-celular.png" width="300" alt="Painel do dono no celular">
 </p>
 
+### Mesas e garçom
+
+- **Mapa das mesas**: cada mesa com a situação (livre, ocupada, pediu a conta), o tempo aberta, o total e o garçom. Pelo teclado, digite o número da mesa e Enter.
+- **A conta lançada aos poucos**: busque no cardápio ("3*" antes do nome lança três), com adicionais e observação. Cada envio vai para a cozinha só com os itens novos, e cada setor recebe só o dele: a pizza na cozinha, a bebida no bar, cada um na sua impressora.
+- **Garçom no celular**: o garçom abre a mesa, escolhe no cardápio e manda para a cozinha pelo navegador do celular, no Wi-Fi da loja, sem internet. O celular é liberado uma vez pelo código que aparece no computador, e cada garçom entra com o PIN dele.
+- **Cancelar com motivo**: o item cancelado precisa do motivo e da permissão (ou de quem autorize), fica no histórico e a cozinha recebe o aviso de não preparar.
+- **Fechar a conta**: a conta impressa para o cliente conferir, a taxa de serviço (10% de começo, você escolhe; o caixa tira com uma tecla, porque é opcional), o desconto, quanto cada pessoa paga e quem sai mais cedo pagando só os itens dele. Mude a conta de mesa ou junte duas mesas sem perder nenhum item.
+
+![Mapa das mesas](docs/mesas.png)
+
+![A conta da mesa](docs/mesa-conta.png)
+
+<p align="center">
+  <img src="docs/garcom-celular.png" width="300" alt="O garçom lançando pelo celular">
+  &nbsp;&nbsp;
+  <img src="docs/garcom-conta.png" width="300" alt="A conta da mesa no celular do garçom">
+</p>
+
 ### Mercado Livre
 
 - **As vendas caem no sistema.** Cada venda paga vira um pedido em Pedidos, para separar e embalar, e baixa o estoque da loja. Venda cancelada no Mercado Livre cancela o pedido e devolve o estoque.
@@ -349,6 +368,7 @@ Pague uma vez só ou por mês. Todos os planos têm 7 dias grátis para testar e
 | Etiquetas com código de barras | - | Sim | Sim |
 | Celular do dono pelo Wi-Fi da loja | - | 1 celular | 2 celulares |
 | Financeiro | - | - | Sim |
+| Mesas e garçom no celular (taxa de serviço, cozinha e bar) | - | Sim | Sim |
 | Delivery e pedidos | - | - | Sim |
 | Loja online | - | - | Sim |
 | Acesso de qualquer lugar (link e PIN) | - | - | Sim |
