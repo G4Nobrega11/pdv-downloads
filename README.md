@@ -1,4 +1,11 @@
-<h1 align="center">PDV</h1>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/axion-logo-clara.png">
+    <img src="docs/axion-logo.png" alt="Axion System Sistemas Inteligentes" width="300">
+  </picture>
+</p>
+
+<h1 align="center">Axion PDV</h1>
 
 <h3 align="center">Venda rápido, controle o estoque e saiba quanto o seu negócio lucra.</h3>
 
@@ -8,7 +15,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/G4Nobrega11/pdv-downloads/releases/latest/download/PDV-Instalador.exe"><b>Baixar e testar grátis por 7 dias</b></a>
+  <a href="https://github.com/G4Nobrega11/pdv-downloads/releases/latest/download/Axion-PDV-Instalador.exe"><b>Baixar e testar grátis por 7 dias</b></a>
   &nbsp;·&nbsp; Windows 10 e 11
 </p>
 
@@ -432,7 +439,7 @@ Não precisa instalar nada: o leitor USB funciona como um teclado. Conecte, abra
 
 **Requisitos:** Windows 10 ou 11 (64 bits), 4 GB de memória, 500 MB livres. Internet só para ativar.
 
-1. [Baixe o instalador](https://github.com/G4Nobrega11/pdv-downloads/releases/latest/download/PDV-Instalador.exe) e abra o arquivo.
+1. [Baixe o instalador](https://github.com/G4Nobrega11/pdv-downloads/releases/latest/download/Axion-PDV-Instalador.exe) e abra o arquivo.
 2. Se aparecer **"O Windows protegeu o computador"**, clique em **Mais informações** e depois em **Executar assim mesmo**. O aviso aparece com programas novos que ainda não são conhecidos pelo Windows. O instalador é o mesmo publicado nesta página.
 3. A instalação termina sozinha e cria o atalho na área de trabalho.
 4. Na primeira abertura, informe o nome da loja, o tipo de loja e crie o seu usuário de administrador.
@@ -445,6 +452,9 @@ Não precisa instalar nada: o leitor USB funciona como um teclado. Conecte, abra
 ---
 
 ## Perguntas frequentes
+
+**Quem faz o sistema?**
+A Axion System Sistemas Inteligentes. O Axion PDV é o nosso sistema de caixa e gestão: o suporte é pela nossa equipe, dentro do próprio sistema, e as atualizações chegam sozinhas.
 
 **Precisa de internet?**
 Não para vender. A internet é usada para ativar, para receber atualizações, para falar com o suporte e para os módulos online (loja online, Mercado Livre, várias lojas numa rede e acesso de qualquer lugar). Sem ela, a venda continua, e o que é online vai quando a conexão voltar.
@@ -503,8 +513,10 @@ A resposta aparece no próprio sistema, numa conversa, e o menu mostra **Suporte
 
 ![A resposta do suporte no sistema](docs/suporte.png)
 
+O Axion PDV é um sistema da **Axion System Sistemas Inteligentes**: o suporte, as atualizações e a liberação dos módulos vêm da nossa equipe.
+
 No período de teste, fale com quem te vendeu o sistema, pelo WhatsApp informado na compra. Os módulos que não estão no seu plano têm o botão **Pedir para liberar**, que já abre a conversa com a mensagem pronta.
 
 <p align="center">
-  <a href="https://github.com/G4Nobrega11/pdv-downloads/releases/latest/download/PDV-Instalador.exe"><b>Baixar o instalador para Windows</b></a>
+  <a href="https://github.com/G4Nobrega11/pdv-downloads/releases/latest/download/Axion-PDV-Instalador.exe"><b>Baixar o instalador para Windows</b></a>
 </p>
